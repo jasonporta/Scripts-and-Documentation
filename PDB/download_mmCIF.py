@@ -10,7 +10,7 @@ def download_mmcif(pdb_id, output_dir="."):
     # Remove whitespace
     pdb_id = pdb_id.strip()
 
-    # Old 4-character PDB ID (e.g., 12AB)
+    # Old 4-character PDB ID
     if len(pdb_id) == 4:
         pdb_id = pdb_id.lower()
         pdbl = PDBList()
@@ -25,7 +25,7 @@ def download_mmcif(pdb_id, output_dir="."):
         print(filename)
         return filename
 
-    # New extended ID (e.g., PDB_0000ABCD)
+    # Process the new extended PDB IDs
     elif pdb_id.upper().startswith("PDB_"):
         pdb_id = pdb_id.upper()
 
@@ -47,7 +47,7 @@ def download_mmcif(pdb_id, output_dir="."):
                 f"Could not download structure for: {pdb_id}"
             )
 
-    # For invalid input
+    # Error handling for invalid input
     else:
         raise ValueError(
             "\nInvalid input.\n"
@@ -55,8 +55,8 @@ def download_mmcif(pdb_id, output_dir="."):
             "  - a 4-character PDB ID\n"
             "  - or an extended ID like PDB_00001ABC\n"
         )
-
-
+        
+# Main program
 # User input
 pdb_input = input(
     "Enter the PDB code using either the old "
