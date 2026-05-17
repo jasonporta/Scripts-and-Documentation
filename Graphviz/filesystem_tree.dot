@@ -1,0 +1,171 @@
+// Filesystem Tree
+digraph {
+	"/home/nermal/Programs/Scripts" [label=Scripts]
+	"/home/nermal/Programs/Scripts/old.compress_directory_MRC_to_TIFF.py" [label="old.compress_directory_MRC_to_TIFF.py"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/old.compress_directory_MRC_to_TIFF.py"
+	"/home/nermal/Programs/Scripts/Relion" [label=Relion]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/Relion"
+	"/home/nermal/Programs/Scripts/Relion" [label=Relion]
+	"/home/nermal/Programs/Scripts/Relion/parse_relion_to_spider.py" [label="parse_relion_to_spider.py"]
+	"/home/nermal/Programs/Scripts/Relion" -> "/home/nermal/Programs/Scripts/Relion/parse_relion_to_spider.py"
+	"/home/nermal/Programs/Scripts/Relion/select_particles_from_classRELION.py" [label="select_particles_from_classRELION.py"]
+	"/home/nermal/Programs/Scripts/Relion" -> "/home/nermal/Programs/Scripts/Relion/select_particles_from_classRELION.py"
+	"/home/nermal/Programs/Scripts/Relion/ctffind_to_relion.py" [label="ctffind_to_relion.py"]
+	"/home/nermal/Programs/Scripts/Relion" -> "/home/nermal/Programs/Scripts/Relion/ctffind_to_relion.py"
+	"/home/nermal/Programs/Scripts/Relion/plot_indivEuler_histogram_fromStarFile.py" [label="plot_indivEuler_histogram_fromStarFile.py"]
+	"/home/nermal/Programs/Scripts/Relion" -> "/home/nermal/Programs/Scripts/Relion/plot_indivEuler_histogram_fromStarFile.py"
+	"/home/nermal/Programs/Scripts/Relion/README.md" [label="README.md"]
+	"/home/nermal/Programs/Scripts/Relion" -> "/home/nermal/Programs/Scripts/Relion/README.md"
+	"/home/nermal/Programs/Scripts/Relion/scale_relion_starFile_between_pixelSizes.py" [label="scale_relion_starFile_between_pixelSizes.py"]
+	"/home/nermal/Programs/Scripts/Relion" -> "/home/nermal/Programs/Scripts/Relion/scale_relion_starFile_between_pixelSizes.py"
+	"/home/nermal/Programs/Scripts/Relion/select_even_odd_entries.py" [label="select_even_odd_entries.py"]
+	"/home/nermal/Programs/Scripts/Relion" -> "/home/nermal/Programs/Scripts/Relion/select_even_odd_entries.py"
+	"/home/nermal/Programs/Scripts/Relion/reweight_particle_stack.py" [label="reweight_particle_stack.py"]
+	"/home/nermal/Programs/Scripts/Relion" -> "/home/nermal/Programs/Scripts/Relion/reweight_particle_stack.py"
+	"/home/nermal/Programs/Scripts/Relion/bin_particleStack_starFile.py" [label="bin_particleStack_starFile.py"]
+	"/home/nermal/Programs/Scripts/Relion" -> "/home/nermal/Programs/Scripts/Relion/bin_particleStack_starFile.py"
+	"/home/nermal/Programs/Scripts/Relion/update_relion_particleStarFile.py" [label="update_relion_particleStarFile.py"]
+	"/home/nermal/Programs/Scripts/Relion" -> "/home/nermal/Programs/Scripts/Relion/update_relion_particleStarFile.py"
+	"/home/nermal/Programs/Scripts/Relion/LICENSE.txt" [label="LICENSE.txt"]
+	"/home/nermal/Programs/Scripts/Relion" -> "/home/nermal/Programs/Scripts/Relion/LICENSE.txt"
+	"/home/nermal/Programs/Scripts/merge_goCTF.py" [label="merge_goCTF.py"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/merge_goCTF.py"
+	"/home/nermal/Programs/Scripts/e2iminfo_parse_header.sh" [label="e2iminfo_parse_header.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/e2iminfo_parse_header.sh"
+	"/home/nermal/Programs/Scripts/deleteCols.py" [label="deleteCols.py"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/deleteCols.py"
+	"/home/nermal/Programs/Scripts/batch-tif2mrc.py" [label="batch-tif2mrc.py"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/batch-tif2mrc.py"
+	"/home/nermal/Programs/Scripts/phase_flip_relion.sh" [label="phase_flip_relion.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/phase_flip_relion.sh"
+	"/home/nermal/Programs/Scripts/create_files_from_list.sh" [label="create_files_from_list.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/create_files_from_list.sh"
+	"/home/nermal/Programs/Scripts/delete_files_not_listed_1.sh" [label="delete_files_not_listed_1.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/delete_files_not_listed_1.sh"
+	"/home/nermal/Programs/Scripts/qsub_InitialModel.sh" [label="qsub_InitialModel.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/qsub_InitialModel.sh"
+	"/home/nermal/Programs/Scripts/qsub_2DSubset.sh" [label="qsub_2DSubset.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/qsub_2DSubset.sh"
+	"/home/nermal/Programs/Scripts/delete_files_not_listed.sh" [label="delete_files_not_listed.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/delete_files_not_listed.sh"
+	"/home/nermal/Programs/Scripts/ctffind_plot_results.sh" [label="ctffind_plot_results.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/ctffind_plot_results.sh"
+	"/home/nermal/Programs/Scripts/ctfReso.sh" [label="ctfReso.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/ctfReso.sh"
+	"/home/nermal/Programs/Scripts/sbatch_slurm_blank_template.sh" [label="sbatch_slurm_blank_template.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/sbatch_slurm_blank_template.sh"
+	"/home/nermal/Programs/Scripts/qsub_Refine3D.sh" [label="qsub_Refine3D.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/qsub_Refine3D.sh"
+	"/home/nermal/Programs/Scripts/print_image_dimensions.sh" [label="print_image_dimensions.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/print_image_dimensions.sh"
+	"/home/nermal/Programs/Scripts/chdir.py" [label="chdir.py"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/chdir.py"
+	"/home/nermal/Programs/Scripts/csv2txt.py" [label="csv2txt.py"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/csv2txt.py"
+	"/home/nermal/Programs/Scripts/deleteColumn.sh" [label="deleteColumn.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/deleteColumn.sh"
+	"/home/nermal/Programs/Scripts/common.sh" [label="common.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/common.sh"
+	"/home/nermal/Programs/Scripts/generate_tree.py" [label="generate_tree.py"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/generate_tree.py"
+	"/home/nermal/Programs/Scripts/bin_relion.sh" [label="bin_relion.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/bin_relion.sh"
+	"/home/nermal/Programs/Scripts/qsub_3DClass.sh" [label="qsub_3DClass.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/qsub_3DClass.sh"
+	"/home/nermal/Programs/Scripts/recenter.py" [label="recenter.py"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/recenter.py"
+	"/home/nermal/Programs/Scripts/dont_write_ds_store.sh" [label="dont_write_ds_store.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/dont_write_ds_store.sh"
+	"/home/nermal/Programs/Scripts/hpc_qsub_template.sh" [label="hpc_qsub_template.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/hpc_qsub_template.sh"
+	"/home/nermal/Programs/Scripts/apoferritin.mrc" [label="apoferritin.mrc"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/apoferritin.mrc"
+	"/home/nermal/Programs/Scripts/move-leginon-frames.py" [label="move-leginon-frames.py"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/move-leginon-frames.py"
+	"/home/nermal/Programs/Scripts/projects_report.py" [label="projects_report.py"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/projects_report.py"
+	"/home/nermal/Programs/Scripts/open_density_map.py" [label="open_density_map.py"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/open_density_map.py"
+	"/home/nermal/Programs/Scripts/compress_directory_MRC_to_TIFF.py" [label="compress_directory_MRC_to_TIFF.py"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/compress_directory_MRC_to_TIFF.py"
+	"/home/nermal/Programs/Scripts/move-directory.py" [label="move-directory.py"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/move-directory.py"
+	"/home/nermal/Programs/Scripts/image_dimensions_star_files.sh" [label="image_dimensions_star_files.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/image_dimensions_star_files.sh"
+	"/home/nermal/Programs/Scripts/submit_cryolo-cl.py" [label="submit_cryolo-cl.py"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/submit_cryolo-cl.py"
+	"/home/nermal/Programs/Scripts/combine_star_files.sh" [label="combine_star_files.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/combine_star_files.sh"
+	"/home/nermal/Programs/Scripts/disk_usage.sh" [label="disk_usage.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/disk_usage.sh"
+	"/home/nermal/Programs/Scripts/csparc2star.py" [label="csparc2star.py"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/csparc2star.py"
+	"/home/nermal/Programs/Scripts/job_clarissa.sh" [label="job_clarissa.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/job_clarissa.sh"
+	"/home/nermal/Programs/Scripts/submit_1564938716.sh" [label="submit_1564938716.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/submit_1564938716.sh"
+	"/home/nermal/Programs/Scripts/e2refine2d.sh" [label="e2refine2d.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/e2refine2d.sh"
+	"/home/nermal/Programs/Scripts/qsub.bash" [label="qsub.bash"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/qsub.bash"
+	"/home/nermal/Programs/Scripts/move_bad_frames.py" [label="move_bad_frames.py"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/move_bad_frames.py"
+	"/home/nermal/Programs/Scripts/star_sort.py" [label="star_sort.py"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/star_sort.py"
+	"/home/nermal/Programs/Scripts/goCTFrunFile.py" [label="goCTFrunFile.py"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/goCTFrunFile.py"
+	"/home/nermal/Programs/Scripts/bin_eman2.sh" [label="bin_eman2.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/bin_eman2.sh"
+	"/home/nermal/Programs/Scripts/micrographs_ctf_bt.star" [label="micrographs_ctf_bt.star"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/micrographs_ctf_bt.star"
+	"/home/nermal/Programs/Scripts/password_generator.py" [label="password_generator.py"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/password_generator.py"
+	"/home/nermal/Programs/Scripts/compress_directory_MRC_to_TIFF-old.py" [label="compress_directory_MRC_to_TIFF-old.py"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/compress_directory_MRC_to_TIFF-old.py"
+	"/home/nermal/Programs/Scripts/mv_bad_images.sh" [label="mv_bad_images.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/mv_bad_images.sh"
+	"/home/nermal/Programs/Scripts/MotionCor2_ArrayScript.sh" [label="MotionCor2_ArrayScript.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/MotionCor2_ArrayScript.sh"
+	"/home/nermal/Programs/Scripts/fileCount.sh" [label="fileCount.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/fileCount.sh"
+	"/home/nermal/Programs/Scripts/extract_string.py" [label="extract_string.py"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/extract_string.py"
+	"/home/nermal/Programs/Scripts/csparc2star_protocol.docx" [label="csparc2star_protocol.docx"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/csparc2star_protocol.docx"
+	"/home/nermal/Programs/Scripts/renameFiles.sh" [label="renameFiles.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/renameFiles.sh"
+	"/home/nermal/Programs/Scripts/mrcfile.py" [label="mrcfile.py"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/mrcfile.py"
+	"/home/nermal/Programs/Scripts/qsub_extract.sh" [label="qsub_extract.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/qsub_extract.sh"
+	"/home/nermal/Programs/Scripts/copyDirContents.sh" [label="copyDirContents.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/copyDirContents.sh"
+	"/home/nermal/Programs/Scripts/combineStar.py" [label="combineStar.py"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/combineStar.py"
+	"/home/nermal/Programs/Scripts/generate_self_signed_certs.sh" [label="generate_self_signed_certs.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/generate_self_signed_certs.sh"
+	"/home/nermal/Programs/Scripts/frames.txt" [label="frames.txt"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/frames.txt"
+	"/home/nermal/Programs/Scripts/qsub_autopick.sh" [label="qsub_autopick.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/qsub_autopick.sh"
+	"/home/nermal/Programs/Scripts/search_files_for_string.sh" [label="search_files_for_string.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/search_files_for_string.sh"
+	"/home/nermal/Programs/Scripts/deleteFiles.sh" [label="deleteFiles.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/deleteFiles.sh"
+	"/home/nermal/Programs/Scripts/MotionCor2_ArrayJob.sh" [label="MotionCor2_ArrayJob.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/MotionCor2_ArrayJob.sh"
+	"/home/nermal/Programs/Scripts/star.py" [label="star.py"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/star.py"
+	"/home/nermal/Programs/Scripts/move_bad_frames_tif.py" [label="move_bad_frames_tif.py"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/move_bad_frames_tif.py"
+	"/home/nermal/Programs/Scripts/writeimage.sh" [label="writeimage.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/writeimage.sh"
+	"/home/nermal/Programs/Scripts/disk_usage.py" [label="disk_usage.py"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/disk_usage.py"
+	"/home/nermal/Programs/Scripts/submit_gpu.sh" [label="submit_gpu.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/submit_gpu.sh"
+	"/home/nermal/Programs/Scripts/qsub_relion_gui.sh" [label="qsub_relion_gui.sh"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/qsub_relion_gui.sh"
+	"/home/nermal/Programs/Scripts/count_particles_relion3.0.awk" [label="count_particles_relion3.0.awk"]
+	"/home/nermal/Programs/Scripts" -> "/home/nermal/Programs/Scripts/count_particles_relion3.0.awk"
+}

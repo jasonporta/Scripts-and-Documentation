@@ -1,0 +1,3512 @@
+../
+├── Admin
+│   ├── backup
+│   │   └── working
+│   ├── Bash
+│   ├── File_Operations
+│   ├── Filesystem_Monitoring
+│   ├── __pycache__
+│   ├── Users_Passwords
+│   └── working
+├── alembic
+│   └── versions
+├── appion
+│   ├── ace
+│   ├── appionlib
+│   │   ├── apCtf
+│   │   ├── apImage
+│   │   ├── apImagic
+│   │   ├── apSpider
+│   │   ├── apTilt
+│   │   ├── data
+│   │   └── StackClass
+│   ├── bin
+│   ├── build
+│   │   ├── lib
+│   │   │   └── appionlib
+│   │   │       ├── apCtf
+│   │   │       ├── apImage
+│   │   │       ├── apImagic
+│   │   │       ├── apSpider
+│   │   │       ├── apTilt
+│   │   │       ├── data
+│   │   │       └── StackClass
+│   │   └── scripts-2.7
+│   ├── denoise
+│   ├── docs
+│   │   └── tiltpicker
+│   ├── spiderbatch
+│   └── test
+├── Bash
+│   └── Relion
+├── CCP4_FORTRAN
+├── CCP4_Templates
+├── Circuitpython
+│   ├── adafruit-circuitpython-bundle-10.x-mpy-20251105
+│   │   ├── examples
+│   │   │   ├── 24lc32
+│   │   │   ├── 74hc595
+│   │   │   │   └── 74hc595_daisy_chain
+│   │   │   │       └── figs
+│   │   │   ├── acep7in
+│   │   │   ├── ad569x
+│   │   │   ├── adafruitio
+│   │   │   │   ├── adafruit_io_http
+│   │   │   │   └── adafruit_io_mqtt
+│   │   │   ├── adg72x
+│   │   │   ├── ads1x15
+│   │   │   ├── ads7830
+│   │   │   ├── adt7410
+│   │   │   ├── adxl34x
+│   │   │   ├── adxl37x
+│   │   │   ├── ags02ma
+│   │   │   ├── ahtx0
+│   │   │   ├── airlift
+│   │   │   ├── am2320
+│   │   │   ├── amg88xx
+│   │   │   ├── anchored_group
+│   │   │   ├── anchored_tilegrid
+│   │   │   ├── apds9960
+│   │   │   ├── argv_file
+│   │   │   ├── as5600
+│   │   │   ├── as726x
+│   │   │   ├── as7341
+│   │   │   ├── asyncio
+│   │   │   ├── atecc
+│   │   │   ├── avrprog
+│   │   │   ├── aw9523
+│   │   │   ├── AWS_IOT
+│   │   │   ├── azure
+│   │   │   │   ├── azureiot_esp32spi
+│   │   │   │   └── azureiot_native_networking
+│   │   │   ├── bd3491fs
+│   │   │   ├── bh1750
+│   │   │   ├── binascii
+│   │   │   ├── bitbangio
+│   │   │   ├── bitmap-font
+│   │   │   │   └── fonts
+│   │   │   ├── bitmapsaver
+│   │   │   ├── ble
+│   │   │   ├── ble_adafruit
+│   │   │   ├── ble_apple_media
+│   │   │   ├── ble_apple_notification_center
+│   │   │   ├── ble_beacon
+│   │   │   ├── ble_berrymed_pulse_oximeter
+│   │   │   ├── ble-broadcastnet
+│   │   │   ├── ble_cycling_speed_and_cadence
+│   │   │   ├── ble_eddystone
+│   │   │   ├── ble_file_transfer
+│   │   │   ├── ble_heart_rate
+│   │   │   ├── ble_ibbq
+│   │   │   ├── ble_lywsd03mmc
+│   │   │   ├── ble_magic_light
+│   │   │   ├── ble_midi
+│   │   │   ├── ble-radio
+│   │   │   ├── bluefruitconnect
+│   │   │   ├── bluefruitspi
+│   │   │   ├── bme280
+│   │   │   ├── bme680
+│   │   │   ├── bmp280
+│   │   │   ├── bmp3xx
+│   │   │   ├── bmp5xx
+│   │   │   ├── bno055
+│   │   │   │   └── bno055_webgl_demo
+│   │   │   │       ├── static
+│   │   │   │       │   ├── css
+│   │   │   │       │   ├── fonts
+│   │   │   │       │   └── js
+│   │   │   │       └── templates
+│   │   │   ├── bno08x
+│   │   │   ├── bno08x_rvc
+│   │   │   ├── boardtest
+│   │   │   ├── bus_device
+│   │   │   ├── cap1188
+│   │   │   ├── ccs811
+│   │   │   ├── ch9328
+│   │   │   ├── charlcd
+│   │   │   ├── circuitplayground
+│   │   │   │   └── circuitplayground_advanced_examples
+│   │   │   ├── clue
+│   │   │   │   └── clue_slideshow
+│   │   │   ├── colorsys
+│   │   │   ├── color_terminal
+│   │   │   ├── connection_manager
+│   │   │   ├── crickit
+│   │   │   ├── cst8xx
+│   │   │   ├── cursorcontrol
+│   │   │   ├── dacx578
+│   │   │   ├── dang
+│   │   │   ├── dash_display
+│   │   │   │   └── dash_display_client_examples
+│   │   │   ├── datetime
+│   │   │   ├── debouncer
+│   │   │   ├── debug-i2c
+│   │   │   ├── dht
+│   │   │   ├── display_analogclock
+│   │   │   ├── display-button
+│   │   │   │   └── bmps
+│   │   │   ├── display_emoji_text
+│   │   │   ├── displayio_flipclock
+│   │   │   │   └── spritesheet_generator
+│   │   │   ├── displayio_layout
+│   │   │   │   ├── bmps
+│   │   │   │   ├── fonts
+│   │   │   │   ├── hotplug_sensor_examples
+│   │   │   │   │   └── images
+│   │   │   │   └── icons
+│   │   │   ├── displayio_sh1106
+│   │   │   ├── displayio_sh1107
+│   │   │   ├── displayio_ssd1305
+│   │   │   ├── displayio_ssd1306
+│   │   │   ├── display_notification
+│   │   │   ├── display-shapes
+│   │   │   ├── display-text
+│   │   │   ├── dotstar
+│   │   │   ├── dps310
+│   │   │   ├── drv2605
+│   │   │   ├── ds1307
+│   │   │   ├── ds1841
+│   │   │   ├── ds18x20
+│   │   │   ├── ds2413
+│   │   │   ├── ds248x
+│   │   │   ├── ds3231
+│   │   │   ├── ds3502
+│   │   │   ├── ducky
+│   │   │   ├── dymoscale
+│   │   │   ├── ek79686
+│   │   │   ├── emc2101
+│   │   │   ├── ens160
+│   │   │   ├── epd
+│   │   │   ├── esp32s2tft
+│   │   │   ├── esp32spi
+│   │   │   │   └── gpio
+│   │   │   ├── esp-atcontrol
+│   │   │   ├── fakerequests
+│   │   │   ├── fancyled
+│   │   │   ├── featherwing
+│   │   │   ├── fingerprint
+│   │   │   ├── floppy
+│   │   │   ├── focaltouch
+│   │   │   ├── fona
+│   │   │   ├── fram
+│   │   │   ├── framebuf
+│   │   │   ├── fruitjam
+│   │   │   │   └── wav
+│   │   │   ├── ft5336
+│   │   │   ├── funhouse
+│   │   │   ├── fxas21002c
+│   │   │   ├── fxos8700
+│   │   │   ├── gc9a01a
+│   │   │   ├── GC_IOT_Core
+│   │   │   ├── gfx
+│   │   │   ├── gizmo
+│   │   │   ├── gps
+│   │   │   ├── guvx-i2c
+│   │   │   ├── hashlib
+│   │   │   ├── hcsr04
+│   │   │   ├── hdc302x
+│   │   │   ├── hid
+│   │   │   ├── ht16k33
+│   │   │   ├── hts221
+│   │   │   ├── httpserver
+│   │   │   ├── htu21d
+│   │   │   ├── htu31d
+│   │   │   ├── hue
+│   │   │   ├── husb238
+│   │   │   ├── hx711
+│   │   │   ├── hx8357
+│   │   │   ├── icm20x
+│   │   │   ├── il0373
+│   │   │   ├── il0398
+│   │   │   ├── il91874
+│   │   │   ├── ili9341
+│   │   │   ├── imageload
+│   │   │   │   └── images
+│   │   │   ├── ina219
+│   │   │   ├── ina228
+│   │   │   ├── ina23x
+│   │   │   ├── ina260
+│   │   │   ├── ina3221
+│   │   │   ├── irremote
+│   │   │   ├── is31fl3731
+│   │   │   ├── is31fl3741
+│   │   │   ├── itertools
+│   │   │   ├── jd79661
+│   │   │   ├── jd79667
+│   │   │   ├── json_stream
+│   │   │   ├── jwt
+│   │   │   ├── l3gd20
+│   │   │   ├── lc709203f
+│   │   │   ├── led-animation
+│   │   │   ├── lidarlite
+│   │   │   ├── lifx
+│   │   │   ├── lis2mdl
+│   │   │   ├── lis331
+│   │   │   ├── lis3dh
+│   │   │   ├── lis3mdl
+│   │   │   ├── logging
+│   │   │   ├── lps28
+│   │   │   ├── lps2x
+│   │   │   ├── lps35hw
+│   │   │   ├── lsm303-accel
+│   │   │   ├── lsm303dlh-mag
+│   │   │   ├── lsm6ds
+│   │   │   ├── lsm9ds0
+│   │   │   ├── lsm9ds1
+│   │   │   ├── ltr329_ltr303
+│   │   │   ├── ltr390
+│   │   │   ├── macropad
+│   │   │   │   ├── macropad_display_image
+│   │   │   │   └── macropad_mp3
+│   │   │   ├── magtag
+│   │   │   ├── matrixkeypad
+│   │   │   ├── matrixportal
+│   │   │   ├── max1704x
+│   │   │   ├── max31855
+│   │   │   ├── max31856
+│   │   │   ├── max31865
+│   │   │   ├── max7219
+│   │   │   ├── max9744
+│   │   │   ├── mcp230xx
+│   │   │   ├── mcp2515
+│   │   │   ├── mcp3421
+│   │   │   ├── mcp3xxx
+│   │   │   ├── mcp4725
+│   │   │   ├── mcp4728
+│   │   │   ├── mcp9600
+│   │   │   ├── mcp9808
+│   │   │   ├── midi
+│   │   │   ├── midi_parser
+│   │   │   ├── miniesptool
+│   │   │   ├── minimqtt
+│   │   │   │   ├── cellular
+│   │   │   │   ├── cpython
+│   │   │   │   ├── esp32spi
+│   │   │   │   ├── ethernet
+│   │   │   │   └── native_networking
+│   │   │   ├── miniqr
+│   │   │   ├── mlx90393
+│   │   │   ├── mlx90395
+│   │   │   ├── mlx90614
+│   │   │   ├── mlx90632
+│   │   │   ├── mlx90640
+│   │   │   ├── mma8451
+│   │   │   ├── mmc56x3
+│   │   │   ├── monsterm4sk
+│   │   │   ├── motor
+│   │   │   ├── motorkit
+│   │   │   ├── mpl115a2
+│   │   │   ├── mpl3115a2
+│   │   │   ├── mpr121
+│   │   │   ├── mprls
+│   │   │   ├── mpu6050
+│   │   │   ├── ms8607
+│   │   │   ├── msa301
+│   │   │   ├── nau7802
+│   │   │   ├── neokey
+│   │   │   ├── neopixel
+│   │   │   ├── neopixel_spi
+│   │   │   ├── neopxl8
+│   │   │   ├── neotrellis
+│   │   │   ├── ntp
+│   │   │   ├── nunchuk
+│   │   │   ├── oauth_2
+│   │   │   ├── onewire
+│   │   │   ├── opt4048
+│   │   │   │   └── opt4048_ws_static
+│   │   │   ├── ov2640
+│   │   │   ├── ov5640
+│   │   │   ├── ov7670
+│   │   │   ├── pastebin
+│   │   │   ├── pathlib
+│   │   │   ├── pca9554
+│   │   │   ├── pca9685
+│   │   │   ├── pcd8544
+│   │   │   ├── pcf8523
+│   │   │   ├── pcf8563
+│   │   │   ├── pcf8574
+│   │   │   ├── pcf8575
+│   │   │   ├── pcf8591
+│   │   │   ├── pcm51xx
+│   │   │   ├── pct2075
+│   │   │   ├── pioasm
+│   │   │   ├── pio_uart
+│   │   │   ├── pixelbuf
+│   │   │   ├── pixel_framebuf
+│   │   │   ├── pixelmap
+│   │   │   ├── pixie
+│   │   │   ├── pm25
+│   │   │   ├── pn532
+│   │   │   ├── portalbase
+│   │   │   ├── progressbar
+│   │   │   ├── prompt_toolkit
+│   │   │   ├── pybadger
+│   │   │   ├── pycamera
+│   │   │   │   ├── basic_camera
+│   │   │   │   ├── camera
+│   │   │   │   ├── filter
+│   │   │   │   ├── overlay
+│   │   │   │   ├── qrio
+│   │   │   │   ├── timestamp_filename
+│   │   │   │   ├── viewer
+│   │   │   │   ├── web_camera
+│   │   │   │   └── web_settings_explorer
+│   │   │   │       └── htdocs
+│   │   │   ├── pyoa
+│   │   │   │   ├── cave
+│   │   │   │   │   └── fonts
+│   │   │   │   ├── cyoa
+│   │   │   │   │   └── fonts
+│   │   │   │   └── cyoa_titano
+│   │   │   │       └── fonts
+│   │   │   ├── pyportal
+│   │   │   ├── qmc5883p
+│   │   │   ├── qualia
+│   │   │   ├── ra8875
+│   │   │   ├── radial_controller
+│   │   │   │   └── radial_controller_rotary_trinkey
+│   │   │   ├── register
+│   │   │   ├── requests
+│   │   │   │   ├── cpython
+│   │   │   │   ├── esp32spi
+│   │   │   │   ├── fona
+│   │   │   │   ├── wifi
+│   │   │   │   │   └── expanded
+│   │   │   │   └── wiznet5k
+│   │   │   ├── rfm
+│   │   │   ├── rfm69
+│   │   │   ├── rfm9x
+│   │   │   ├── rgb-display
+│   │   │   ├── rgbled
+│   │   │   ├── rockblock
+│   │   │   ├── rplidar
+│   │   │   ├── rsa
+│   │   │   │   └── keys
+│   │   │   ├── rtttl
+│   │   │   ├── s35710
+│   │   │   ├── scd30
+│   │   │   ├── scd4x
+│   │   │   ├── sdcard
+│   │   │   ├── seesaw
+│   │   │   ├── sen6x
+│   │   │   ├── servokit
+│   │   │   ├── sgp30
+│   │   │   ├── sgp40
+│   │   │   ├── sharpmemorydisplay
+│   │   │   ├── sht31
+│   │   │   ├── sht4x
+│   │   │   ├── shtc3
+│   │   │   ├── si1145
+│   │   │   ├── si4713
+│   │   │   ├── si5351
+│   │   │   ├── si7021
+│   │   │   ├── simpleio
+│   │   │   ├── simplemath
+│   │   │   ├── simple-text-display
+│   │   │   ├── slideshow
+│   │   │   │   └── images
+│   │   │   ├── spa06_003
+│   │   │   ├── spd1656
+│   │   │   ├── ssd1305
+│   │   │   ├── ssd1306
+│   │   │   ├── ssd1322
+│   │   │   ├── ssd1325
+│   │   │   ├── ssd1327
+│   │   │   ├── ssd1331
+│   │   │   ├── ssd1351
+│   │   │   ├── ssd1608
+│   │   │   ├── ssd1675
+│   │   │   ├── ssd1680
+│   │   │   ├── ssd1681
+│   │   │   ├── ssd1683
+│   │   │   ├── st7565
+│   │   │   ├── st7735
+│   │   │   ├── st7735r
+│   │   │   ├── st7789
+│   │   │   ├── sths34pf80
+│   │   │   ├── stmpe610
+│   │   │   ├── stspin
+│   │   │   ├── tc74
+│   │   │   ├── tca8418
+│   │   │   ├── tca9584a
+│   │   │   ├── tcs34725
+│   │   │   ├── templateengine
+│   │   │   ├── tfmini
+│   │   │   ├── thermistor
+│   │   │   ├── ticks
+│   │   │   ├── tinylora
+│   │   │   ├── tla202x
+│   │   │   ├── tlc5947
+│   │   │   ├── tlc59711
+│   │   │   ├── tlv320
+│   │   │   ├── tlv493d
+│   │   │   ├── tm1814
+│   │   │   ├── tmp006
+│   │   │   ├── tmp007
+│   │   │   ├── tmp117
+│   │   │   ├── touchscreen
+│   │   │   ├── tpa2016
+│   │   │   ├── trellis
+│   │   │   ├── trellism4
+│   │   │   │   └── trellism4_wavefile_synth
+│   │   │   │       └── notes
+│   │   │   │           ├── sawtooth
+│   │   │   │           ├── sine
+│   │   │   │           ├── square
+│   │   │   │           └── triangle
+│   │   │   ├── tsc2007
+│   │   │   ├── tsl2561
+│   │   │   ├── tsl2591
+│   │   │   ├── tt21100
+│   │   │   ├── turtle
+│   │   │   │   └── icons
+│   │   │   ├── uc8151d
+│   │   │   ├── uc8179
+│   │   │   ├── uc8253
+│   │   │   ├── us100
+│   │   │   ├── usb_host_descriptors
+│   │   │   ├── usb_host_mass_storage
+│   │   │   ├── usb_host_midi
+│   │   │   ├── usb_host_mouse
+│   │   │   ├── vc0706
+│   │   │   ├── vcnl4010
+│   │   │   ├── vcnl4020
+│   │   │   ├── vcnl4040
+│   │   │   ├── vcnl4200
+│   │   │   ├── veml6070
+│   │   │   ├── veml6075
+│   │   │   ├── veml7700
+│   │   │   ├── vl53l0x
+│   │   │   ├── vl53l1x
+│   │   │   ├── vl53l4cd
+│   │   │   ├── vl6180x
+│   │   │   ├── vs1053
+│   │   │   ├── wave
+│   │   │   ├── waveform
+│   │   │   ├── wii_classic
+│   │   │   ├── wiz
+│   │   │   ├── wiznet5k
+│   │   │   ├── wm8960
+│   │   │   ├── ws2801
+│   │   │   └── wsgi
+│   │   │       └── static
+│   │   ├── lib
+│   │   │   ├── adafruit_ads1x15
+│   │   │   ├── adafruit_ads7830
+│   │   │   ├── adafruit_airlift
+│   │   │   ├── adafruit_apds9960
+│   │   │   ├── adafruit_atecc
+│   │   │   ├── adafruit_azureiot
+│   │   │   ├── adafruit_bitmap_font
+│   │   │   ├── adafruit_ble
+│   │   │   │   ├── advertising
+│   │   │   │   ├── attributes
+│   │   │   │   ├── characteristics
+│   │   │   │   ├── services
+│   │   │   │   │   └── standard
+│   │   │   │   └── uuid
+│   │   │   ├── adafruit_ble_adafruit
+│   │   │   ├── adafruit_ble_berrymed_pulse_oximeter
+│   │   │   ├── adafruit_ble_eddystone
+│   │   │   ├── adafruit_bluefruit_connect
+│   │   │   ├── adafruit_bme280
+│   │   │   ├── adafruit_bno08x
+│   │   │   ├── adafruit_boardtest
+│   │   │   ├── adafruit_bus_device
+│   │   │   ├── adafruit_button
+│   │   │   ├── adafruit_cap1188
+│   │   │   ├── adafruit_ch9328
+│   │   │   ├── adafruit_character_lcd
+│   │   │   ├── adafruit_circuitplayground
+│   │   │   ├── adafruit_cursorcontrol
+│   │   │   ├── adafruit_displayio_flipclock
+│   │   │   ├── adafruit_displayio_layout
+│   │   │   │   ├── layouts
+│   │   │   │   └── widgets
+│   │   │   ├── adafruit_display_notification
+│   │   │   ├── adafruit_display_shapes
+│   │   │   ├── adafruit_display_text
+│   │   │   ├── adafruit_dps310
+│   │   │   ├── adafruit_emc2101
+│   │   │   ├── adafruit_epd
+│   │   │   ├── adafruit_esp32s2tft
+│   │   │   ├── adafruit_esp32spi
+│   │   │   ├── adafruit_espatcontrol
+│   │   │   ├── adafruit_fancyled
+│   │   │   ├── adafruit_featherwing
+│   │   │   ├── adafruit_fona
+│   │   │   ├── adafruit_fruitjam
+│   │   │   ├── adafruit_funhouse
+│   │   │   ├── adafruit_gfx
+│   │   │   │   └── fonts
+│   │   │   ├── adafruit_gizmo
+│   │   │   ├── adafruit_hashlib
+│   │   │   ├── adafruit_hid
+│   │   │   ├── adafruit_ht16k33
+│   │   │   ├── adafruit_httpserver
+│   │   │   ├── adafruit_hx711
+│   │   │   ├── adafruit_imageload
+│   │   │   │   ├── bmp
+│   │   │   │   └── pnm
+│   │   │   │       └── pgm
+│   │   │   ├── adafruit_io
+│   │   │   ├── adafruit_is31fl3731
+│   │   │   ├── adafruit_is31fl3741
+│   │   │   ├── adafruit_itertools
+│   │   │   ├── adafruit_led_animation
+│   │   │   │   └── animation
+│   │   │   ├── adafruit_lsm6ds
+│   │   │   ├── adafruit_magtag
+│   │   │   ├── adafruit_matrixportal
+│   │   │   ├── adafruit_max7219
+│   │   │   ├── adafruit_mcp230xx
+│   │   │   ├── adafruit_mcp2515
+│   │   │   │   └── canio
+│   │   │   ├── adafruit_mcp3421
+│   │   │   ├── adafruit_mcp3xxx
+│   │   │   ├── adafruit_midi
+│   │   │   ├── adafruit_minimqtt
+│   │   │   ├── adafruit_motor
+│   │   │   ├── adafruit_neokey
+│   │   │   ├── adafruit_neotrellis
+│   │   │   ├── adafruit_onewire
+│   │   │   ├── adafruit_ov5640
+│   │   │   ├── adafruit_pastebin
+│   │   │   ├── adafruit_pcf8523
+│   │   │   ├── adafruit_pcf8563
+│   │   │   ├── adafruit_pcf8591
+│   │   │   ├── adafruit_pm25
+│   │   │   ├── adafruit_pn532
+│   │   │   ├── adafruit_portalbase
+│   │   │   ├── adafruit_progressbar
+│   │   │   ├── adafruit_prompt_toolkit
+│   │   │   ├── adafruit_pybadger
+│   │   │   ├── adafruit_pycamera
+│   │   │   ├── adafruit_pyportal
+│   │   │   ├── adafruit_qualia
+│   │   │   │   └── displays
+│   │   │   ├── adafruit_ra8875
+│   │   │   ├── adafruit_radial_controller
+│   │   │   ├── adafruit_register
+│   │   │   ├── adafruit_rfm
+│   │   │   ├── adafruit_rgb_display
+│   │   │   ├── adafruit_rsa
+│   │   │   ├── adafruit_seesaw
+│   │   │   ├── adafruit_sgp40
+│   │   │   ├── adafruit_si7021
+│   │   │   ├── adafruit_tinylora
+│   │   │   ├── adafruit_tla202x
+│   │   │   ├── adafruit_usb_host_mouse
+│   │   │   ├── adafruit_waveform
+│   │   │   ├── adafruit_wiznet5k
+│   │   │   ├── adafruit_wm8960
+│   │   │   ├── adafruit_wsgi
+│   │   │   └── asyncio
+│   │   └── requirements
+│   │       ├── adafruit_24lc32
+│   │       ├── adafruit_74hc595
+│   │       ├── adafruit_acep7in
+│   │       ├── adafruit_ad569x
+│   │       ├── adafruit_adg72x
+│   │       ├── adafruit_ads1x15
+│   │       ├── adafruit_ads7830
+│   │       ├── adafruit_adt7410
+│   │       ├── adafruit_adxl34x
+│   │       ├── adafruit_adxl37x
+│   │       ├── adafruit_ags02ma
+│   │       ├── adafruit_ahtx0
+│   │       ├── adafruit_airlift
+│   │       ├── adafruit_am2320
+│   │       ├── adafruit_amg88xx
+│   │       ├── adafruit_anchored_group
+│   │       ├── adafruit_anchored_tilegrid
+│   │       ├── adafruit_apds9960
+│   │       ├── adafruit_argv_file
+│   │       ├── adafruit_as5600
+│   │       ├── adafruit_as726x
+│   │       ├── adafruit_as7341
+│   │       ├── adafruit_atecc
+│   │       ├── adafruit_avrprog
+│   │       ├── adafruit_aw9523
+│   │       ├── adafruit_aws_iot
+│   │       ├── adafruit_azureiot
+│   │       ├── adafruit_bd3491fs
+│   │       ├── adafruit_bh1750
+│   │       ├── adafruit_binascii
+│   │       ├── adafruit_bitbangio
+│   │       ├── adafruit_bitmap_font
+│   │       ├── adafruit_bitmapsaver
+│   │       ├── adafruit_ble
+│   │       ├── adafruit_ble_adafruit
+│   │       ├── adafruit_ble_apple_media
+│   │       ├── adafruit_ble_apple_notification_center
+│   │       ├── adafruit_ble_beacon
+│   │       ├── adafruit_ble_berrymed_pulse_oximeter
+│   │       ├── adafruit_ble_broadcastnet
+│   │       ├── adafruit_ble_cycling_speed_and_cadence
+│   │       ├── adafruit_ble_eddystone
+│   │       ├── adafruit_ble_file_transfer
+│   │       ├── adafruit_ble_heart_rate
+│   │       ├── adafruit_ble_ibbq
+│   │       ├── adafruit_ble_lywsd03mmc
+│   │       ├── adafruit_ble_magic_light
+│   │       ├── adafruit_ble_midi
+│   │       ├── adafruit_ble_radio
+│   │       ├── adafruit_bluefruit_connect
+│   │       ├── adafruit_bluefruitspi
+│   │       ├── adafruit_bme280
+│   │       ├── adafruit_bme680
+│   │       ├── adafruit_bmp280
+│   │       ├── adafruit_bmp3xx
+│   │       ├── adafruit_bmp5xx
+│   │       ├── adafruit_bno055
+│   │       ├── adafruit_bno08x
+│   │       ├── adafruit_bno08x_rvc
+│   │       ├── adafruit_boardtest
+│   │       ├── adafruit_bus_device
+│   │       ├── adafruit_button
+│   │       ├── adafruit_cap1188
+│   │       ├── adafruit_ccs811
+│   │       ├── adafruit_ch9328
+│   │       ├── adafruit_character_lcd
+│   │       ├── adafruit_circuitplayground
+│   │       ├── adafruit_clue
+│   │       ├── adafruit_color_terminal
+│   │       ├── adafruit_connection_manager
+│   │       ├── adafruit_crickit
+│   │       ├── adafruit_cst8xx
+│   │       ├── adafruit_cursorcontrol
+│   │       ├── adafruit_dacx578
+│   │       ├── adafruit_dang
+│   │       ├── adafruit_dash_display
+│   │       ├── adafruit_datetime
+│   │       ├── adafruit_debouncer
+│   │       ├── adafruit_debug_i2c
+│   │       ├── adafruit_dht
+│   │       ├── adafruit_display_analogclock
+│   │       ├── adafruit_display_emoji_text
+│   │       ├── adafruit_displayio_flipclock
+│   │       ├── adafruit_displayio_layout
+│   │       ├── adafruit_displayio_sh1106
+│   │       ├── adafruit_displayio_sh1107
+│   │       ├── adafruit_displayio_ssd1305
+│   │       ├── adafruit_displayio_ssd1306
+│   │       ├── adafruit_display_notification
+│   │       ├── adafruit_display_shapes
+│   │       ├── adafruit_display_text
+│   │       ├── adafruit_dotstar
+│   │       ├── adafruit_dps310
+│   │       ├── adafruit_drv2605
+│   │       ├── adafruit_ds1307
+│   │       ├── adafruit_ds1841
+│   │       ├── adafruit_ds18x20
+│   │       ├── adafruit_ds2413
+│   │       ├── adafruit_ds248x
+│   │       ├── adafruit_ds3231
+│   │       ├── adafruit_ds3502
+│   │       ├── adafruit_ducky
+│   │       ├── adafruit_dymoscale
+│   │       ├── adafruit_ek79686
+│   │       ├── adafruit_emc2101
+│   │       ├── adafruit_ens160
+│   │       ├── adafruit_epd
+│   │       ├── adafruit_esp32s2tft
+│   │       ├── adafruit_esp32spi
+│   │       ├── adafruit_espatcontrol
+│   │       ├── adafruit_fakerequests
+│   │       ├── adafruit_fancyled
+│   │       ├── adafruit_featherwing
+│   │       ├── adafruit_fingerprint
+│   │       ├── adafruit_floppy
+│   │       ├── adafruit_focaltouch
+│   │       ├── adafruit_fona
+│   │       ├── adafruit_fram
+│   │       ├── adafruit_framebuf
+│   │       ├── adafruit_fruitjam
+│   │       ├── adafruit_ft5336
+│   │       ├── adafruit_funhouse
+│   │       ├── adafruit_fxas21002c
+│   │       ├── adafruit_fxos8700
+│   │       ├── adafruit_gc9a01a
+│   │       ├── adafruit_gc_iot_core
+│   │       ├── adafruit_gfx
+│   │       ├── adafruit_gizmo
+│   │       ├── adafruit_gps
+│   │       ├── adafruit_guvx_i2c
+│   │       ├── adafruit_hashlib
+│   │       ├── adafruit_hcsr04
+│   │       ├── adafruit_hdc302x
+│   │       ├── adafruit_hid
+│   │       ├── adafruit_ht16k33
+│   │       ├── adafruit_hts221
+│   │       ├── adafruit_httpserver
+│   │       ├── adafruit_htu21d
+│   │       ├── adafruit_htu31d
+│   │       ├── adafruit_hue
+│   │       ├── adafruit_husb238
+│   │       ├── adafruit_hx711
+│   │       ├── adafruit_hx8357
+│   │       ├── adafruit_icm20x
+│   │       ├── adafruit_il0373
+│   │       ├── adafruit_il0398
+│   │       ├── adafruit_il91874
+│   │       ├── adafruit_ili9341
+│   │       ├── adafruit_imageload
+│   │       ├── adafruit_ina219
+│   │       ├── adafruit_ina228
+│   │       ├── adafruit_ina23x
+│   │       ├── adafruit_ina260
+│   │       ├── adafruit_ina3221
+│   │       ├── adafruit_io
+│   │       ├── adafruit_irremote
+│   │       ├── adafruit_is31fl3731
+│   │       ├── adafruit_is31fl3741
+│   │       ├── adafruit_itertools
+│   │       ├── adafruit_jd79661
+│   │       ├── adafruit_jd79667
+│   │       ├── adafruit_json_stream
+│   │       ├── adafruit_jwt
+│   │       ├── adafruit_l3gd20
+│   │       ├── adafruit_lc709203f
+│   │       ├── adafruit_led_animation
+│   │       ├── adafruit_lidarlite
+│   │       ├── adafruit_lifx
+│   │       ├── adafruit_lis2mdl
+│   │       ├── adafruit_lis331
+│   │       ├── adafruit_lis3dh
+│   │       ├── adafruit_lis3mdl
+│   │       ├── adafruit_logging
+│   │       ├── adafruit_lps28
+│   │       ├── adafruit_lps2x
+│   │       ├── adafruit_lps35hw
+│   │       ├── adafruit_lsm303_accel
+│   │       ├── adafruit_lsm303dlh_mag
+│   │       ├── adafruit_lsm6ds
+│   │       ├── adafruit_lsm9ds0
+│   │       ├── adafruit_lsm9ds1
+│   │       ├── adafruit_ltr329_ltr303
+│   │       ├── adafruit_ltr390
+│   │       ├── adafruit_macropad
+│   │       ├── adafruit_magtag
+│   │       ├── adafruit_matrixkeypad
+│   │       ├── adafruit_matrixportal
+│   │       ├── adafruit_max1704x
+│   │       ├── adafruit_max31855
+│   │       ├── adafruit_max31856
+│   │       ├── adafruit_max31865
+│   │       ├── adafruit_max7219
+│   │       ├── adafruit_max9744
+│   │       ├── adafruit_mcp230xx
+│   │       ├── adafruit_mcp2515
+│   │       ├── adafruit_mcp3421
+│   │       ├── adafruit_mcp3xxx
+│   │       ├── adafruit_mcp4725
+│   │       ├── adafruit_mcp4728
+│   │       ├── adafruit_mcp9600
+│   │       ├── adafruit_mcp9808
+│   │       ├── adafruit_midi
+│   │       ├── adafruit_midi_parser
+│   │       ├── adafruit_miniesptool
+│   │       ├── adafruit_minimqtt
+│   │       ├── adafruit_miniqr
+│   │       ├── adafruit_mlx90393
+│   │       ├── adafruit_mlx90395
+│   │       ├── adafruit_mlx90614
+│   │       ├── adafruit_mlx90632
+│   │       ├── adafruit_mlx90640
+│   │       ├── adafruit_mma8451
+│   │       ├── adafruit_mmc56x3
+│   │       ├── adafruit_monsterm4sk
+│   │       ├── adafruit_motor
+│   │       ├── adafruit_motorkit
+│   │       ├── adafruit_mpl115a2
+│   │       ├── adafruit_mpl3115a2
+│   │       ├── adafruit_mpr121
+│   │       ├── adafruit_mprls
+│   │       ├── adafruit_mpu6050
+│   │       ├── adafruit_ms8607
+│   │       ├── adafruit_msa3xx
+│   │       ├── adafruit_neokey
+│   │       ├── adafruit_neopxl8
+│   │       ├── adafruit_neotrellis
+│   │       ├── adafruit_ntp
+│   │       ├── adafruit_nunchuk
+│   │       ├── adafruit_oauth2
+│   │       ├── adafruit_onewire
+│   │       ├── adafruit_opt4048
+│   │       ├── adafruit_ov2640
+│   │       ├── adafruit_ov5640
+│   │       ├── adafruit_ov7670
+│   │       ├── adafruit_pastebin
+│   │       ├── adafruit_pathlib
+│   │       ├── adafruit_pca9554
+│   │       ├── adafruit_pca9685
+│   │       ├── adafruit_pcd8544
+│   │       ├── adafruit_pcf8523
+│   │       ├── adafruit_pcf8563
+│   │       ├── adafruit_pcf8574
+│   │       ├── adafruit_pcf8575
+│   │       ├── adafruit_pcf8591
+│   │       ├── adafruit_pcm51xx
+│   │       ├── adafruit_pct2075
+│   │       ├── adafruit_pioasm
+│   │       ├── adafruit_pio_uart
+│   │       ├── adafruit_pixelbuf
+│   │       ├── adafruit_pixel_framebuf
+│   │       ├── adafruit_pixelmap
+│   │       ├── adafruit_pixie
+│   │       ├── adafruit_pm25
+│   │       ├── adafruit_pn532
+│   │       ├── adafruit_portalbase
+│   │       ├── adafruit_progressbar
+│   │       ├── adafruit_prompt_toolkit
+│   │       ├── adafruit_pybadger
+│   │       ├── adafruit_pycamera
+│   │       ├── adafruit_pyoa
+│   │       ├── adafruit_pyportal
+│   │       ├── adafruit_qmc5883p
+│   │       ├── adafruit_qualia
+│   │       ├── adafruit_ra8875
+│   │       ├── adafruit_radial_controller
+│   │       ├── adafruit_register
+│   │       ├── adafruit_requests
+│   │       ├── adafruit_rfm
+│   │       ├── adafruit_rfm69
+│   │       ├── adafruit_rfm9x
+│   │       ├── adafruit_rgb_display
+│   │       ├── adafruit_rgbled
+│   │       ├── adafruit_rockblock
+│   │       ├── adafruit_rplidar
+│   │       ├── adafruit_rsa
+│   │       ├── adafruit_rtttl
+│   │       ├── adafruit_s35710
+│   │       ├── adafruit_scd30
+│   │       ├── adafruit_scd4x
+│   │       ├── adafruit_sdcard
+│   │       ├── adafruit_seesaw
+│   │       ├── adafruit_sen6x
+│   │       ├── adafruit_servokit
+│   │       ├── adafruit_sgp30
+│   │       ├── adafruit_sgp40
+│   │       ├── adafruit_sharpmemorydisplay
+│   │       ├── adafruit_sht31d
+│   │       ├── adafruit_sht4x
+│   │       ├── adafruit_shtc3
+│   │       ├── adafruit_si1145
+│   │       ├── adafruit_si4713
+│   │       ├── adafruit_si5351
+│   │       ├── adafruit_si7021
+│   │       ├── adafruit_simplemath
+│   │       ├── adafruit_simple_text_display
+│   │       ├── adafruit_slideshow
+│   │       ├── adafruit_spa06_003
+│   │       ├── adafruit_spd1656
+│   │       ├── adafruit_ssd1305
+│   │       ├── adafruit_ssd1306
+│   │       ├── adafruit_ssd1322
+│   │       ├── adafruit_ssd1325
+│   │       ├── adafruit_ssd1327
+│   │       ├── adafruit_ssd1331
+│   │       ├── adafruit_ssd1351
+│   │       ├── adafruit_ssd1608
+│   │       ├── adafruit_ssd1675
+│   │       ├── adafruit_ssd1680
+│   │       ├── adafruit_ssd1681
+│   │       ├── adafruit_ssd1683
+│   │       ├── adafruit_st7565
+│   │       ├── adafruit_st7735
+│   │       ├── adafruit_st7735r
+│   │       ├── adafruit_st7789
+│   │       ├── adafruit_sths34pf80
+│   │       ├── adafruit_stmpe610
+│   │       ├── adafruit_stspin
+│   │       ├── adafruit_tc74
+│   │       ├── adafruit_tca8418
+│   │       ├── adafruit_tca9548a
+│   │       ├── adafruit_tcs34725
+│   │       ├── adafruit_templateengine
+│   │       ├── adafruit_tfmini
+│   │       ├── adafruit_thermistor
+│   │       ├── adafruit_ticks
+│   │       ├── adafruit_tinylora
+│   │       ├── adafruit_tla202x
+│   │       ├── adafruit_tlc5947
+│   │       ├── adafruit_tlc59711
+│   │       ├── adafruit_tlv320
+│   │       ├── adafruit_tlv493d
+│   │       ├── adafruit_tm1814
+│   │       ├── adafruit_tmp006
+│   │       ├── adafruit_tmp007
+│   │       ├── adafruit_tmp117
+│   │       ├── adafruit_touchscreen
+│   │       ├── adafruit_tpa2016
+│   │       ├── adafruit_trellis
+│   │       ├── adafruit_trellism4
+│   │       ├── adafruit_tsc2007
+│   │       ├── adafruit_tsl2561
+│   │       ├── adafruit_tsl2591
+│   │       ├── adafruit_tt21100
+│   │       ├── adafruit_turtle
+│   │       ├── adafruit_uc8151d
+│   │       ├── adafruit_uc8179
+│   │       ├── adafruit_uc8253
+│   │       ├── adafruit_us100
+│   │       ├── adafruit_usb_host_descriptors
+│   │       ├── adafruit_usb_host_mass_storage
+│   │       ├── adafruit_usb_host_midi
+│   │       ├── adafruit_usb_host_mouse
+│   │       ├── adafruit_vc0706
+│   │       ├── adafruit_vcnl4010
+│   │       ├── adafruit_vcnl4020
+│   │       ├── adafruit_vcnl4040
+│   │       ├── adafruit_vcnl4200
+│   │       ├── adafruit_veml6070
+│   │       ├── adafruit_veml6075
+│   │       ├── adafruit_veml7700
+│   │       ├── adafruit_vl53l0x
+│   │       ├── adafruit_vl53l1x
+│   │       ├── adafruit_vl53l4cd
+│   │       ├── adafruit_vl6180x
+│   │       ├── adafruit_vs1053
+│   │       ├── adafruit_wave
+│   │       ├── adafruit_waveform
+│   │       ├── adafruit_wii_classic
+│   │       ├── adafruit_wiz
+│   │       ├── adafruit_wiznet5k
+│   │       ├── adafruit_wm8960
+│   │       ├── adafruit_ws2801
+│   │       ├── adafruit_wsgi
+│   │       ├── asyncio
+│   │       ├── cedargrove_nau7802
+│   │       ├── colorsys
+│   │       ├── neopixel
+│   │       ├── neopixel_spi
+│   │       └── simpleio
+│   ├── circuitpython-community-bundle-10.x-mpy-20251107
+│   │   ├── examples
+│   │   │   ├── 74hc165
+│   │   │   ├── absolute_mouse
+│   │   │   ├── ad5245
+│   │   │   ├── ad5293
+│   │   │   ├── ad9833
+│   │   │   ├── airqualitytools
+│   │   │   ├── ansi_escape_code
+│   │   │   ├── arrowline
+│   │   │   ├── as3935
+│   │   │   ├── as5600
+│   │   │   ├── async_button
+│   │   │   ├── async_buzzer
+│   │   │   ├── at24mac_eeprom
+│   │   │   ├── at42qt1070
+│   │   │   ├── at42qt2120
+│   │   │   ├── axp192
+│   │   │   ├── axp2101
+│   │   │   ├── AzureCustomVision_Prediction
+│   │   │   ├── base64
+│   │   │   ├── bbq10keyboard
+│   │   │   ├── ble_cycling_power_service
+│   │   │   ├── bluepad32
+│   │   │   ├── bteve
+│   │   │   ├── buildhat
+│   │   │   ├── button_handler
+│   │   │   ├── buzzer-music
+│   │   │   ├── candlesticks
+│   │   │   ├── caveble
+│   │   │   ├── chime
+│   │   │   ├── circuitpython-as7343
+│   │   │   ├── circuitpython_display_frame
+│   │   │   ├── cirque_pinnacle
+│   │   │   ├── colorfader
+│   │   │   ├── color_picker
+│   │   │   ├── csv
+│   │   │   ├── df1201s
+│   │   │   ├── discordbot
+│   │   │   ├── display_ht16k33
+│   │   │   ├── displayio_annotation
+│   │   │   ├── displayio_cartesian
+│   │   │   ├── displayio_dial
+│   │   │   ├── displayio_effects
+│   │   │   ├── displayio_listselect
+│   │   │   ├── displayio_st7565
+│   │   │   ├── dotstar_featherwing
+│   │   │   │   ├── animation
+│   │   │   │   ├── circle_shift
+│   │   │   │   ├── color_image
+│   │   │   │   ├── count_from_left
+│   │   │   │   ├── count_from_right
+│   │   │   │   ├── dots
+│   │   │   │   ├── fill
+│   │   │   │   ├── gauntlet_game
+│   │   │   │   ├── monochrome_image
+│   │   │   │   └── text
+│   │   │   ├── drv8830
+│   │   │   ├── dst_adjuster
+│   │   │   ├── dynamixel
+│   │   │   ├── ehttpserver
+│   │   │   ├── equalizer
+│   │   │   ├── fs3000
+│   │   │   ├── functools
+│   │   │   ├── gamblor21_ahrs
+│   │   │   ├── game_controls
+│   │   │   ├── gauge
+│   │   │   ├── gc9a01
+│   │   │   ├── gc9d01
+│   │   │   ├── gpio_expander
+│   │   │   ├── grove_vision_ai_v2
+│   │   │   ├── gt911
+│   │   │   ├── HMAC
+│   │   │   ├── hx711
+│   │   │   ├── i2c_button
+│   │   │   ├── i2cencoderlibv21
+│   │   │   ├── i2c_expanders
+│   │   │   ├── ifttt
+│   │   │   ├── ili9163
+│   │   │   ├── ina3221
+│   │   │   ├── iperf
+│   │   │   ├── jled
+│   │   │   ├── keymanager
+│   │   │   ├── laser_at
+│   │   │   ├── laser_egismos
+│   │   │   ├── lcd1602
+│   │   │   ├── leapyear
+│   │   │   ├── lilygo_tdeck
+│   │   │   ├── lis2dh12
+│   │   │   ├── ltc166x
+│   │   │   ├── ltr329als01
+│   │   │   ├── ltr559
+│   │   │   ├── m5stack_pbhub
+│   │   │   ├── m5stack_unit8
+│   │   │   ├── mag_cal
+│   │   │   ├── mcp23017_scanner
+│   │   │   ├── mcp48xx
+│   │   │   ├── mhz19
+│   │   │   ├── microosc
+│   │   │   ├── mics6814
+│   │   │   ├── miniethers
+│   │   │   ├── mitutoyo
+│   │   │   ├── morsecode
+│   │   │   ├── mpu6886
+│   │   │   ├── multi_keypad
+│   │   │   ├── nau7802
+│   │   │   ├── noise
+│   │   │   ├── nonblocking_serialinput
+│   │   │   ├── nonblocking_timer
+│   │   │   ├── nrf24l01
+│   │   │   ├── nvm_helper
+│   │   │   ├── Oakdevtech_CircuitPython_IcePython
+│   │   │   ├── P1AM
+│   │   │   │   └── HSC
+│   │   │   ├── p1am_200_helpers
+│   │   │   ├── paj7620
+│   │   │   ├── palettefader
+│   │   │   ├── palettefilter
+│   │   │   ├── paletteslice
+│   │   │   ├── parse
+│   │   │   ├── pca9674
+│   │   │   ├── pca9955b
+│   │   │   ├── pcf85063a
+│   │   │   ├── pio_i2s
+│   │   │   ├── pixel_mapper
+│   │   │   ├── ps2controller
+│   │   │   ├── punkconsole
+│   │   │   ├── qmi8658c
+│   │   │   ├── qwiicas3935
+│   │   │   ├── qwiicjoystick
+│   │   │   ├── qwiickeypad
+│   │   │   ├── qwiicquadsolidstaterelay
+│   │   │   ├── qwiicrelay
+│   │   │   ├── qwiictwist
+│   │   │   ├── rangeslicer
+│   │   │   ├── rda5807
+│   │   │   ├── rm3100
+│   │   │   ├── rotaryselect
+│   │   │   │   └── circle_icons
+│   │   │   ├── RS485-Wrapper
+│   │   │   ├── ruhrohrotaryio
+│   │   │   ├── scales
+│   │   │   ├── schedule
+│   │   │   ├── sc_servo
+│   │   │   ├── seeed_xiao_nrf52840
+│   │   │   ├── segment_display
+│   │   │   ├── serlcd
+│   │   │   ├── sh1106
+│   │   │   ├── shadowwatcher
+│   │   │   ├── simple_dial
+│   │   │   ├── slider
+│   │   │   ├── slight_tlc5957
+│   │   │   ├── softkeyboard
+│   │   │   ├── styles
+│   │   │   ├── synthvoice
+│   │   │   ├── tca9555
+│   │   │   ├── temperaturetools
+│   │   │   ├── ticstepper
+│   │   │   ├── tm1637_display
+│   │   │   ├── tmidi
+│   │   │   ├── tmp75
+│   │   │   ├── trellism4_extended
+│   │   │   ├── ttp229
+│   │   │   ├── tzdb
+│   │   │   ├── uboxplot
+│   │   │   ├── udecimal
+│   │   │   ├── uplot
+│   │   │   │   └── fonts
+│   │   │   ├── usb_host_descriptor_parser
+│   │   │   ├── usb_host_gamepad
+│   │   │   ├── wavebuilder
+│   │   │   ├── waveform
+│   │   │   ├── waveviz
+│   │   │   └── wiichuck
+│   │   ├── lib
+│   │   │   ├── absolute_mouse
+│   │   │   ├── ansi_escape_code
+│   │   │   ├── as7343
+│   │   │   ├── asynccp
+│   │   │   │   └── test
+│   │   │   ├── barbudor_ina3221
+│   │   │   ├── bluepad32
+│   │   │   ├── bteve
+│   │   │   ├── buildhat
+│   │   │   │   ├── data
+│   │   │   │   ├── devices
+│   │   │   │   ├── models
+│   │   │   │   └── motors
+│   │   │   ├── cedargrove_airqualitytools
+│   │   │   │   └── translate
+│   │   │   ├── cedargrove_palettefader
+│   │   │   ├── cedargrove_paletteslice
+│   │   │   ├── cedargrove_rgb_spectrumtools
+│   │   │   ├── cedargrove_temperaturetools
+│   │   │   ├── cedargrove_touchcalibrator
+│   │   │   ├── circuitpython_miniethers
+│   │   │   ├── circuitpython_nrf24l01
+│   │   │   │   ├── network
+│   │   │   │   └── wrapper
+│   │   │   ├── circuitpython_simple_dial
+│   │   │   ├── circuitpython_ticstepper
+│   │   │   ├── circuitpython_uplot
+│   │   │   ├── color_picker
+│   │   │   ├── display_ht16k33
+│   │   │   ├── displayio_effects
+│   │   │   ├── docs
+│   │   │   ├── dotstar_featherwing
+│   │   │   ├── equalizer
+│   │   │   ├── gamblor21_ahrs
+│   │   │   ├── game_controls
+│   │   │   ├── hx711
+│   │   │   ├── i2c_expanders
+│   │   │   ├── jepler_udecimal
+│   │   │   ├── jled
+│   │   │   ├── m5stack_unit8
+│   │   │   ├── mag_cal
+│   │   │   ├── nonblocking_timer
+│   │   │   ├── P1AM
+│   │   │   ├── p1am_200_helpers
+│   │   │   ├── pca9674
+│   │   │   ├── pca9955b
+│   │   │   ├── relic_synthvoice
+│   │   │   ├── softkeyboard
+│   │   │   ├── styles
+│   │   │   ├── toml
+│   │   │   ├── tzdb
+│   │   │   │   └── _zones
+│   │   │   │       ├── Africa
+│   │   │   │       ├── America
+│   │   │   │       │   ├── Argentina
+│   │   │   │       │   ├── Indiana
+│   │   │   │       │   ├── Kentucky
+│   │   │   │       │   └── North_Dakota
+│   │   │   │       ├── Asia
+│   │   │   │       ├── Atlantic
+│   │   │   │       ├── Australia
+│   │   │   │       ├── Canada
+│   │   │   │       ├── Europe
+│   │   │   │       ├── Indian
+│   │   │   │       └── Pacific
+│   │   │   └── wiichuck
+│   │   └── requirements
+│   │       ├── absolute_mouse
+│   │       ├── adafruit_discordbot
+│   │       ├── adafruit_soundboard
+│   │       ├── ansi_escape_code
+│   │       ├── arrowline
+│   │       ├── as5600
+│   │       ├── as7343
+│   │       ├── async_button
+│   │       ├── async_buzzer
+│   │       ├── asynccp
+│   │       ├── AT24MAC_EEPROM
+│   │       ├── at42qt2120
+│   │       ├── axp192
+│   │       ├── axp2101
+│   │       ├── azurecustomvision_prediction
+│   │       ├── barbudor_ina3221
+│   │       ├── barbudor_tmp75
+│   │       ├── bbq10keyboard
+│   │       ├── biffobear_as3935
+│   │       ├── biplane
+│   │       ├── ble_cycling_power_service
+│   │       ├── bluepad32
+│   │       ├── bteve
+│   │       ├── buildhat
+│   │       ├── button_handler
+│   │       ├── candlesticks
+│   │       ├── caveble
+│   │       ├── cedargrove_ad5245
+│   │       ├── cedargrove_ad5293
+│   │       ├── cedargrove_ad9833
+│   │       ├── cedargrove_airqualitytools
+│   │       ├── cedargrove_chime
+│   │       ├── cedargrove_colorfader
+│   │       ├── cedargrove_drv8830
+│   │       ├── cedargrove_dst_adjuster
+│   │       ├── cedargrove_leapyear
+│   │       ├── cedargrove_midi_tools
+│   │       ├── cedargrove_nau7802
+│   │       ├── cedargrove_ohmslaw
+│   │       ├── cedargrove_palettefader
+│   │       ├── cedargrove_palettefilter
+│   │       ├── cedargrove_paletteslice
+│   │       ├── cedargrove_punkconsole
+│   │       ├── cedargrove_rangeslicer
+│   │       ├── cedargrove_rgb_spectrumtools
+│   │       ├── cedargrove_shadowwatcher
+│   │       ├── cedargrove_temperaturetools
+│   │       ├── cedargrove_touchcalibrator
+│   │       ├── cedargrove_wavebuilder
+│   │       ├── cedargrove_waveviz
+│   │       ├── circuitpython_base64
+│   │       ├── circuitpython_cirque_pinnacle
+│   │       ├── circuitpython_csv
+│   │       ├── circuitpython_display_frame
+│   │       ├── circuitpython_functools
+│   │       ├── circuitpython_hmac
+│   │       ├── circuitpython_miniethers
+│   │       ├── circuitpython_nrf24l01
+│   │       ├── circuitpython_parse
+│   │       ├── circuitpython_schedule
+│   │       ├── circuitpython_simple_dial
+│   │       ├── circuitpython_ticstepper
+│   │       ├── circuitpython_uplot
+│   │       ├── color_picker
+│   │       ├── community_tca9555
+│   │       ├── creativecontrol_circuitpython_ltc166x
+│   │       ├── display_ht16k33
+│   │       ├── displayio_annotation
+│   │       ├── displayio_cartesian
+│   │       ├── displayio_dial
+│   │       ├── displayio_effects
+│   │       ├── displayio_listselect
+│   │       ├── displayio_st7565
+│   │       ├── dotstar_featherwing
+│   │       ├── dynamixel
+│   │       ├── e_ink_seg_display
+│   │       ├── electronutlabs_ili9163
+│   │       ├── electronutlabs_lis2dh12
+│   │       ├── electronutlabs_ltr329als01
+│   │       ├── equalizer
+│   │       ├── foamyguy_nvm_helper
+│   │       ├── fs3000
+│   │       ├── gamblor21_ahrs
+│   │       ├── game_controls
+│   │       ├── gauge
+│   │       ├── gc9a01
+│   │       ├── gc9d01
+│   │       ├── gpio_expander
+│   │       ├── grove_vision_ai_v2
+│   │       ├── gt911
+│   │       ├── hcsr04
+│   │       ├── hx711
+│   │       ├── i2c_button
+│   │       ├── i2cencoderlibv21
+│   │       ├── i2c_expanders
+│   │       ├── ifttt
+│   │       ├── jepler_udecimal
+│   │       ├── jled
+│   │       ├── laser_at
+│   │       ├── laser_egismos
+│   │       ├── lilygo_tdeck
+│   │       ├── m5stack_pbhub
+│   │       ├── m5stack_unit8
+│   │       ├── mag_cal
+│   │       ├── mcp23017_scanner
+│   │       ├── mcp48xx
+│   │       ├── mhz19
+│   │       ├── microosc
+│   │       ├── mindwidgets_df1201s
+│   │       ├── mitutoyo
+│   │       ├── morsecode
+│   │       ├── mpu6886
+│   │       ├── multi_keypad
+│   │       ├── noise
+│   │       ├── nonblocking_serialinput
+│   │       ├── nonblocking_timer
+│   │       ├── oakdevtech_icepython
+│   │       ├── odt_at42qt1070_python
+│   │       ├── P1AM
+│   │       ├── p1am_200_helpers
+│   │       ├── paj7620
+│   │       ├── pca9674
+│   │       ├── pca9955b
+│   │       ├── pcf85063a
+│   │       ├── pimoroni_circuitpython_ltr559
+│   │       ├── pimoroni_mics6814
+│   │       ├── pio_i2s
+│   │       ├── pixel_mapper
+│   │       ├── ps2controller
+│   │       ├── qmi8658c
+│   │       ├── relic_keymanager
+│   │       ├── relic_synthvoice
+│   │       ├── relic_usb_host_descriptor_parser
+│   │       ├── relic_usb_host_gamepad
+│   │       ├── relic_waveform
+│   │       ├── rm3100
+│   │       ├── rotaryselect
+│   │       ├── rs485_wrapper
+│   │       ├── ruhrohrotaryio
+│   │       ├── scales
+│   │       ├── sc_servo
+│   │       ├── seeed_xiao_nrf52840
+│   │       ├── sh1106
+│   │       ├── slider
+│   │       ├── slight_tlc5957
+│   │       ├── softkeyboard
+│   │       ├── sparkfun_qwiicas3935
+│   │       ├── sparkfun_qwiicjoystick
+│   │       ├── sparkfun_qwiickeypad
+│   │       ├── sparkfun_qwiicquadsolidstaterelay
+│   │       ├── sparkfun_qwiicrelay
+│   │       ├── sparkfun_qwiictwist
+│   │       ├── sparkfun_serlcd
+│   │       ├── styles
+│   │       ├── tinkeringtech_rda5807m
+│   │       ├── tm1637_display
+│   │       ├── tmidi
+│   │       ├── toml
+│   │       ├── trellism4_extended
+│   │       ├── ttp229
+│   │       ├── tzdb
+│   │       ├── uboxplot
+│   │       ├── waveshare_lcd1602
+│   │       ├── wiichuck
+│   │       └── wws_74hc165
+│   ├── examples
+│   │   └── macropad_display_image
+│   │       ├── CircuitPython 10.x
+│   │       │   └── lib
+│   │       │       ├── adafruit_bitmap_font
+│   │       │       ├── adafruit_display_text
+│   │       │       ├── adafruit_hid
+│   │       │       └── adafruit_midi
+│   │       └── CircuitPython 9.x
+│   │           └── lib
+│   │               ├── adafruit_bitmap_font
+│   │               ├── adafruit_display_text
+│   │               ├── adafruit_hid
+│   │               └── adafruit_midi
+│   └── Macropad_Hotkeys
+│       ├── CircuitPython 10.x
+│       │   ├── lib
+│       │   │   ├── adafruit_bitmap_font
+│       │   │   ├── adafruit_display_shapes
+│       │   │   ├── adafruit_display_text
+│       │   │   ├── adafruit_hid
+│       │   │   └── adafruit_midi
+│       │   └── macros
+│       └── CircuitPython 9.x
+│           ├── lib
+│           │   ├── adafruit_bitmap_font
+│           │   ├── adafruit_display_shapes
+│           │   ├── adafruit_display_text
+│           │   ├── adafruit_hid
+│           │   └── adafruit_midi
+│           └── macros
+├── Cluster
+│   └── Eddy
+├── CryoEM
+│   ├── Appion
+│   │   ├── ace
+│   │   ├── appionlib
+│   │   │   ├── apCtf
+│   │   │   ├── apImage
+│   │   │   ├── apImagic
+│   │   │   ├── apSpider
+│   │   │   ├── apTilt
+│   │   │   ├── data
+│   │   │   └── StackClass
+│   │   ├── bin
+│   │   ├── build
+│   │   │   ├── lib
+│   │   │   │   └── appionlib
+│   │   │   │       ├── apCtf
+│   │   │   │       ├── apImage
+│   │   │   │       ├── apImagic
+│   │   │   │       ├── apSpider
+│   │   │   │       ├── apTilt
+│   │   │   │       ├── data
+│   │   │   │       └── StackClass
+│   │   │   └── scripts-2.7
+│   │   ├── denoise
+│   │   ├── docs
+│   │   │   └── tiltpicker
+│   │   ├── spiderbatch
+│   │   └── test
+│   ├── DeleteFrames
+│   │   ├── classTest
+│   │   ├── functionTest
+│   │   │   ├── appionlib
+│   │   │   │   ├── apCtf
+│   │   │   │   ├── apImage
+│   │   │   │   ├── apImagic
+│   │   │   │   ├── apSpider
+│   │   │   │   ├── apTilt
+│   │   │   │   ├── data
+│   │   │   │   └── StackClass
+│   │   │   └── backup
+│   │   └── moduleTest
+│   ├── MRCfile
+│   ├── mrcfile-python
+│   │   ├── docs
+│   │   │   └── source
+│   │   ├── mrcfile
+│   │   │   └── __pycache__
+│   │   └── tests
+│   │       └── test_data
+│   ├── MRCfile_Python
+│   │   ├── docs
+│   │   │   └── source
+│   │   ├── mrcfile
+│   │   │   └── __pycache__
+│   │   └── tests
+│   │       └── test_data
+│   └── Relion
+├── deleteFrames
+│   ├── classTest
+│   ├── functionTest
+│   │   ├── appionlib
+│   │   │   ├── apCtf
+│   │   │   ├── apImage
+│   │   │   ├── apImagic
+│   │   │   ├── apSpider
+│   │   │   ├── apTilt
+│   │   │   ├── data
+│   │   │   └── StackClass
+│   │   └── backup
+│   └── moduleTest
+├── docs
+│   ├── developer_guide
+│   │   └── api
+│   ├── installation
+│   ├── instances
+│   │   └── scilifelab
+│   ├── js
+│   ├── templates
+│   │   └── sidebar
+│   └── user_manual
+│       └── configuration
+├── Documentation
+├── emhub.egg-info
+├── GCTF_Scripts
+├── GitHub
+│   ├── File_Operations
+│   ├── Image_Processing
+│   ├── Network
+│   ├── Sys_Monitoring
+│   └── User_Management
+├── House_Keeping
+├── HPC
+│   └── UMICH
+├── hpc_umich
+├── IoT
+│   ├── ArduiPi_OLED
+│   │   ├── examples
+│   │   └── mono
+│   │       ├── ArduiPi_OLED_Monitor
+│   │       │   └── Properties
+│   │       ├── ArduiPi_OLED_Wrapper
+│   │       │   └── Properties
+│   │       ├── ArduiPi_OLED_Wrapper.Test
+│   │       │   └── Properties
+│   │       └── sshot
+│   ├── basic_kit_for_arduino
+│   │   ├── Lesson 10 Light Alarm
+│   │   │   ├── circuit
+│   │   │   └── code
+│   │   │       └── Simple_Creation___Light_Alarm
+│   │   ├── Lesson 11 Automatic Light Source Tracking
+│   │   │   ├── circuit
+│   │   │   └── code
+│   │   │       └── Automatic_Light_Source_Tracking
+│   │   ├── Lesson 1 Button
+│   │   │   ├── circuit
+│   │   │   └── code
+│   │   │       └── Button
+│   │   ├── Lesson 2 Flowing LED Lights
+│   │   │   ├── circuit
+│   │   │   └── code
+│   │   │       └── Flowing_LED_Lights
+│   │   ├── Lesson 3 Buzzer
+│   │   │   ├── circuit
+│   │   │   └── code
+│   │   │       └── code
+│   │   │           └── Active
+│   │   ├── Lesson 4 Controlling LED by Potentiometer
+│   │   │   ├── circuit
+│   │   │   └── code
+│   │   │       └── Controlling_LED_by_Potentiometer
+│   │   ├── Lesson 5 Photoresistor
+│   │   │   ├── circuit
+│   │   │   └── code
+│   │   │       └── photoTest
+│   │   ├── Lesson 6 RGB LED
+│   │   │   ├── circuit
+│   │   │   └── code
+│   │   │       └── RGB_LED
+│   │   ├── Lesson 7 Servo Motor
+│   │   │   ├── circuit
+│   │   │   └── code
+│   │   │       └── servo
+│   │   ├── Lesson 8 Tilt-Switch
+│   │   │   ├── circuit
+│   │   │   └── code
+│   │   │       └── Tilt_Switch
+│   │   └── Lesson 9 Thermistor
+│   │       ├── circuit
+│   │       └── code
+│   │           └── Thermistor
+│   ├── bme280-iot33
+│   ├── firmware
+│   ├── Macropad_Dragon_Drop
+│   │   └── CircuitPython 8.x
+│   │       ├── dragondrop
+│   │       └── lib
+│   │           ├── adafruit_bitmap_font
+│   │           ├── adafruit_display_text
+│   │           ├── adafruit_hid
+│   │           ├── adafruit_imageload
+│   │           │   ├── bmp
+│   │           │   └── pnm
+│   │           │       └── pgm
+│   │           ├── adafruit_midi
+│   │           └── adafruit_progressbar
+│   ├── Macropad_Hotkeys
+│   │   ├── CircuitPython 8.x
+│   │   │   ├── lib
+│   │   │   │   ├── adafruit_bitmap_font
+│   │   │   │   ├── adafruit_display_shapes
+│   │   │   │   ├── adafruit_display_text
+│   │   │   │   ├── adafruit_hid
+│   │   │   │   └── adafruit_midi
+│   │   │   └── macros
+│   │   └── CircuitPython 9.x
+│   │       ├── lib
+│   │       │   ├── adafruit_bitmap_font
+│   │       │   ├── adafruit_display_shapes
+│   │       │   ├── adafruit_display_text
+│   │       │   ├── adafruit_hid
+│   │       │   └── adafruit_midi
+│   │       └── macros
+│   ├── MegaMenu
+│   │   ├── Api
+│   │   │   └── Data
+│   │   ├── Block
+│   │   │   ├── Adminhtml
+│   │   │   │   └── Index
+│   │   │   │       ├── Edit
+│   │   │   │       │   ├── Fields
+│   │   │   │       │   │   └── MenuItems
+│   │   │   │       │   └── Fieldset
+│   │   │   │       └── View
+│   │   │   └── Widget
+│   │   ├── Controller
+│   │   │   ├── Adminhtml
+│   │   │   │   ├── Index
+│   │   │   │   ├── Megamenu
+│   │   │   │   └── Wysiwyg
+│   │   │   │       └── Images
+│   │   │   └── Index
+│   │   ├── etc
+│   │   │   ├── adminhtml
+│   │   │   └── frontend
+│   │   ├── fixtures
+│   │   ├── Helper
+│   │   │   └── Wysiwyg
+│   │   ├── Model
+│   │   │   ├── Megamenu
+│   │   │   │   └── Source
+│   │   │   └── ResourceModel
+│   │   │       └── Megamenu
+│   │   ├── Setup
+│   │   ├── Ui
+│   │   │   └── Component
+│   │   │       └── Listing
+│   │   │           └── Column
+│   │   └── view
+│   │       ├── adminhtml
+│   │       │   ├── layout
+│   │       │   │   └── bk
+│   │       │   ├── templates
+│   │       │   │   ├── browser
+│   │       │   │   └── megamenu
+│   │       │   │       └── fields
+│   │       │   │           └── menu_items
+│   │       │   ├── ui_component
+│   │       │   └── web
+│   │       │       ├── css
+│   │       │       │   ├── font-awesome
+│   │       │       │   └── fonts
+│   │       │       ├── images
+│   │       │       │   ├── column_layout
+│   │       │       │   ├── layout
+│   │       │       │   └── menu
+│   │       │       ├── js
+│   │       │       └── template
+│   │       └── frontend
+│   │           ├── templates
+│   │           └── web
+│   │               ├── css
+│   │               │   ├── font-awesome
+│   │               │   ├── fonts
+│   │               │   └── source
+│   │               ├── images
+│   │               └── js
+│   ├── micropython-raspberry-pi-pico
+│   │   ├── control-components-from-web-server
+│   │   │   ├── static
+│   │   │   └── templates
+│   │   ├── dc-motor-drv8833
+│   │   ├── ldr-photoresistor
+│   │   ├── microdot-dynamic-component-path
+│   │   │   ├── static
+│   │   │   └── templates
+│   │   ├── mqtt-bme280-weather-station
+│   │   ├── rgb-module
+│   │   ├── umqtt.simple
+│   │   └── websocket_using_microdot
+│   │       ├── static
+│   │       └── templates
+│   ├── micropython_tutorials
+│   ├── PicoW_HomeAssistant_Starter
+│   │   ├── include
+│   │   ├── lib
+│   │   ├── src
+│   │   └── test
+│   ├── pico-w-thermometer
+│   │   └── img
+│   ├── Pi-hole-Monitor
+│   │   ├── images
+│   │   └── piholemonitor
+│   │       └── libs
+│   │           └── ArduinoJson
+│   │               └── src
+│   │                   └── ArduinoJson
+│   │                       ├── Data
+│   │                       ├── Deserialization
+│   │                       ├── Polyfills
+│   │                       ├── Serialization
+│   │                       ├── StringTraits
+│   │                       └── TypeTraits
+│   ├── RPi
+│   │   ├── arduino-home-assistant
+│   │   │   ├── docs
+│   │   │   │   ├── documents
+│   │   │   │   │   ├── api
+│   │   │   │   │   │   ├── core
+│   │   │   │   │   │   ├── device-types
+│   │   │   │   │   │   └── utils
+│   │   │   │   │   ├── getting-started
+│   │   │   │   │   └── library
+│   │   │   │   ├── _images
+│   │   │   │   └── _static
+│   │   │   ├── docsrc
+│   │   │   │   └── source
+│   │   │   │       ├── documents
+│   │   │   │       │   ├── api
+│   │   │   │       │   │   ├── core
+│   │   │   │       │   │   ├── device-types
+│   │   │   │       │   │   └── utils
+│   │   │   │       │   ├── getting-started
+│   │   │   │       │   │   └── images
+│   │   │   │       │   └── library
+│   │   │   │       ├── static
+│   │   │   │       └── themes
+│   │   │   │           └── press-ext
+│   │   │   ├── examples
+│   │   │   │   ├── advanced-availability
+│   │   │   │   ├── availability
+│   │   │   │   ├── binary-sensor
+│   │   │   │   ├── button
+│   │   │   │   ├── cover
+│   │   │   │   ├── esp32-cam
+│   │   │   │   ├── fan
+│   │   │   │   ├── hvac
+│   │   │   │   ├── led-switch
+│   │   │   │   ├── light
+│   │   │   │   ├── lock
+│   │   │   │   ├── mdns
+│   │   │   │   ├── mqtt-advanced
+│   │   │   │   ├── mqtt-with-credentials
+│   │   │   │   ├── multi-state-button
+│   │   │   │   ├── multi-switch
+│   │   │   │   ├── nano33iot
+│   │   │   │   ├── nodemcu
+│   │   │   │   ├── number
+│   │   │   │   ├── scene
+│   │   │   │   ├── select
+│   │   │   │   ├── sensor
+│   │   │   │   ├── sensor-analog
+│   │   │   │   ├── sensor-integer
+│   │   │   │   └── tag-scanner
+│   │   │   ├── src
+│   │   │   │   ├── device-types
+│   │   │   │   ├── mocks
+│   │   │   │   └── utils
+│   │   │   └── tests
+│   │   │       ├── BaseDeviceTypeTest
+│   │   │       ├── BinarySensorTest
+│   │   │       ├── ButtonTest
+│   │   │       ├── CameraTest
+│   │   │       ├── CoverTest
+│   │   │       ├── DeviceTest
+│   │   │       ├── DeviceTrackerTest
+│   │   │       ├── DeviceTriggerTest
+│   │   │       ├── FanTest
+│   │   │       ├── HVACTest
+│   │   │       ├── LightTest
+│   │   │       ├── LockTest
+│   │   │       ├── NumberTest
+│   │   │       ├── NumericTest
+│   │   │       ├── SceneTest
+│   │   │       ├── SelectTest
+│   │   │       ├── SensorTest
+│   │   │       ├── SerializerArrayTest
+│   │   │       ├── SerializerTest
+│   │   │       ├── SerializerTopicsTest
+│   │   │       ├── SwitchTest
+│   │   │       ├── TagScannerTest
+│   │   │       └── UtilsTest
+│   │   ├── arduino-pico
+│   │   │   ├── ArduinoCore-API
+│   │   │   ├── bme280_ada
+│   │   │   ├── boot2
+│   │   │   ├── cores
+│   │   │   │   └── rp2040
+│   │   │   │       ├── api
+│   │   │   │       │   ├── deprecated
+│   │   │   │       │   └── deprecated-avr-comp
+│   │   │   │       │       └── avr
+│   │   │   │       ├── libb64
+│   │   │   │       └── sdkoverride
+│   │   │   ├── docs
+│   │   │   │   └── images
+│   │   │   ├── include
+│   │   │   │   ├── bearssl
+│   │   │   │   └── pico_base
+│   │   │   │       └── pico
+│   │   │   ├── lib
+│   │   │   ├── libraries
+│   │   │   │   ├── Adafruit_TinyUSB_Arduino
+│   │   │   │   ├── ADCInput
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   └── AnalogMicrophone
+│   │   │   │   │   └── src
+│   │   │   │   ├── ArduinoOTA
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   ├── BasicOTA
+│   │   │   │   │   │   ├── OTALeds
+│   │   │   │   │   │   ├── SignedOTA
+│   │   │   │   │   │   └── SignedOTA-blink
+│   │   │   │   │   └── src
+│   │   │   │   ├── AudioBufferManager
+│   │   │   │   │   └── src
+│   │   │   │   ├── BTstackLib
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   ├── ANCS
+│   │   │   │   │   │   ├── iBeacon
+│   │   │   │   │   │   ├── iBeaconScanner
+│   │   │   │   │   │   ├── LECentral
+│   │   │   │   │   │   └── LEPeripheral
+│   │   │   │   │   └── src
+│   │   │   │   ├── DNSServer
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   ├── CaptivePortal
+│   │   │   │   │   │   ├── CaptivePortalAdvanced
+│   │   │   │   │   │   └── DNSServer
+│   │   │   │   │   └── src
+│   │   │   │   ├── EEPROM
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   ├── eeprom_clear
+│   │   │   │   │   │   ├── eeprom_read
+│   │   │   │   │   │   └── eeprom_write
+│   │   │   │   │   └── src
+│   │   │   │   ├── ESP8266SdFat
+│   │   │   │   ├── FreeRTOS
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   ├── Multicore-FreeRTOS
+│   │   │   │   │   │   └── StaticMulticore-FreeRTOS
+│   │   │   │   │   ├── lib
+│   │   │   │   │   │   └── FreeRTOS-Kernel
+│   │   │   │   │   └── src
+│   │   │   │   ├── Hash
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   └── sha1
+│   │   │   │   │   └── src
+│   │   │   │   ├── HID_Bluetooth
+│   │   │   │   │   └── src
+│   │   │   │   ├── HID_Joystick
+│   │   │   │   ├── HID_Keyboard
+│   │   │   │   ├── HID_Mouse
+│   │   │   │   ├── HTTPClient
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   ├── Authorization
+│   │   │   │   │   │   ├── BasicHttpClient
+│   │   │   │   │   │   ├── BasicHttpsClient
+│   │   │   │   │   │   ├── BasicHttpsClient-Hard
+│   │   │   │   │   │   ├── ChunkedClient
+│   │   │   │   │   │   ├── DigestAuthorization
+│   │   │   │   │   │   ├── PostHttpClient
+│   │   │   │   │   │   ├── ReuseConnectionV2
+│   │   │   │   │   │   └── StreamHttpsClient
+│   │   │   │   │   └── src
+│   │   │   │   ├── http-parser
+│   │   │   │   │   ├── lib
+│   │   │   │   │   │   └── http-parser
+│   │   │   │   │   └── src
+│   │   │   │   ├── HTTPUpdate
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   ├── httpUpdate
+│   │   │   │   │   │   └── httpUpdateSecure
+│   │   │   │   │   └── src
+│   │   │   │   ├── HTTPUpdateServer
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   ├── SecureBearSSLUpdater
+│   │   │   │   │   │   ├── WebUpdater
+│   │   │   │   │   │   └── WebUpdaterAuth
+│   │   │   │   │   └── src
+│   │   │   │   ├── I2S
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   ├── I2SInput
+│   │   │   │   │   │   └── SimpleTone
+│   │   │   │   │   └── src
+│   │   │   │   ├── Joystick
+│   │   │   │   │   ├── docs
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   └── Joystick-AllFunctions
+│   │   │   │   │   └── src
+│   │   │   │   ├── JoystickBLE
+│   │   │   │   │   ├── docs
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   └── BLEJoystick-AllFunctions
+│   │   │   │   │   └── src
+│   │   │   │   ├── JoystickBT
+│   │   │   │   │   ├── docs
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   └── BTJoystick-AllFunctions
+│   │   │   │   │   └── src
+│   │   │   │   ├── Keyboard
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   ├── KeyboardPassword
+│   │   │   │   │   │   └── Serial
+│   │   │   │   │   └── src
+│   │   │   │   ├── KeyboardBLE
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   ├── BLEKeyboardPassword
+│   │   │   │   │   │   └── BLESerial
+│   │   │   │   │   └── src
+│   │   │   │   ├── KeyboardBT
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   ├── BTKeyboardPassword
+│   │   │   │   │   │   └── BTSerial
+│   │   │   │   │   └── src
+│   │   │   │   ├── LEAmDNS
+│   │   │   │   │   └── src
+│   │   │   │   ├── LittleFS
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   ├── FSUpload
+│   │   │   │   │   │   │   └── data
+│   │   │   │   │   │   └── SpeedTest
+│   │   │   │   │   ├── lib
+│   │   │   │   │   │   └── littlefs
+│   │   │   │   │   └── src
+│   │   │   │   ├── lwIP_CYW43
+│   │   │   │   │   └── src
+│   │   │   │   │       └── utility
+│   │   │   │   ├── lwIP_Ethernet
+│   │   │   │   │   └── src
+│   │   │   │   ├── MD5Builder
+│   │   │   │   │   └── src
+│   │   │   │   ├── Mouse
+│   │   │   │   │   ├── docs
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   └── Circle
+│   │   │   │   │   └── src
+│   │   │   │   ├── MouseAbsolute
+│   │   │   │   │   ├── docs
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   └── CircleAbsolute
+│   │   │   │   │   └── src
+│   │   │   │   ├── MouseBLE
+│   │   │   │   │   ├── docs
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   ├── BLECircle
+│   │   │   │   │   │   └── BLECircleAbsolute
+│   │   │   │   │   └── src
+│   │   │   │   ├── MouseBT
+│   │   │   │   │   ├── docs
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   ├── BTCircle
+│   │   │   │   │   │   └── BTCircleAbsolute
+│   │   │   │   │   └── src
+│   │   │   │   ├── PDM
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   └── PDMSerialPlotter
+│   │   │   │   │   └── src
+│   │   │   │   │       ├── rp2040
+│   │   │   │   │       └── utility
+│   │   │   │   ├── PicoOTA
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   ├── OTAfromFile
+│   │   │   │   │   │   └── OTAfromFile-Compressed
+│   │   │   │   │   └── src
+│   │   │   │   ├── PWMAudio
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   ├── PlayRaw
+│   │   │   │   │   │   └── PlayStereo
+│   │   │   │   │   └── src
+│   │   │   │   ├── rp2040
+│   │   │   │   │   └── examples
+│   │   │   │   │       ├── Bootsel
+│   │   │   │   │       ├── Fade
+│   │   │   │   │       ├── GetCycleCount
+│   │   │   │   │       ├── Multicore
+│   │   │   │   │       ├── Siren
+│   │   │   │   │       ├── Temperature
+│   │   │   │   │       ├── Time
+│   │   │   │   │       └── ToneHappyBirthday
+│   │   │   │   ├── SD
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   ├── Datalogger
+│   │   │   │   │   │   ├── DumpFile
+│   │   │   │   │   │   ├── Files
+│   │   │   │   │   │   ├── listfiles
+│   │   │   │   │   │   └── ReadWrite
+│   │   │   │   │   └── src
+│   │   │   │   ├── SDFS
+│   │   │   │   │   └── src
+│   │   │   │   ├── SerialBT
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   └── BTSerialUppercase
+│   │   │   │   │   └── src
+│   │   │   │   ├── Servo
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   └── Sweep
+│   │   │   │   │   └── src
+│   │   │   │   ├── SingleFileDrive
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   └── DataLoggerUSB
+│   │   │   │   │   └── src
+│   │   │   │   ├── SPI
+│   │   │   │   │   └── src
+│   │   │   │   ├── Updater
+│   │   │   │   │   └── src
+│   │   │   │   ├── WebServer
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   ├── AdvancedWebServer
+│   │   │   │   │   │   ├── FSBrowser
+│   │   │   │   │   │   │   ├── data
+│   │   │   │   │   │   │   │   ├── dir1
+│   │   │   │   │   │   │   │   └── edit
+│   │   │   │   │   │   │   └── extras
+│   │   │   │   │   │   ├── HelloServer
+│   │   │   │   │   │   ├── HelloServerBearSSL
+│   │   │   │   │   │   ├── HttpAdvancedAuth
+│   │   │   │   │   │   ├── HttpBasicAuth
+│   │   │   │   │   │   ├── PostServer
+│   │   │   │   │   │   ├── SimpleAuthentication
+│   │   │   │   │   │   └── WebUpdate
+│   │   │   │   │   └── src
+│   │   │   │   │       ├── detail
+│   │   │   │   │       └── uri
+│   │   │   │   ├── WiFi
+│   │   │   │   │   ├── examples
+│   │   │   │   │   │   ├── BearSSL_CertStore
+│   │   │   │   │   │   ├── BearSSL_MaxFragmentLength
+│   │   │   │   │   │   ├── BearSSL_Server
+│   │   │   │   │   │   ├── BearSSL_ServerClientCert
+│   │   │   │   │   │   ├── BearSSL_Sessions
+│   │   │   │   │   │   ├── BearSSL_Validation
+│   │   │   │   │   │   ├── ScanNetworks
+│   │   │   │   │   │   ├── Udp
+│   │   │   │   │   │   ├── WiFiClient
+│   │   │   │   │   │   └── WiFiServer
+│   │   │   │   │   └── src
+│   │   │   │   │       ├── dhcpserver
+│   │   │   │   │       └── include
+│   │   │   │   └── Wire
+│   │   │   │       ├── examples
+│   │   │   │       │   └── TalkingToMyself
+│   │   │   │       └── src
+│   │   │   ├── ota
+│   │   │   │   └── uzlib
+│   │   │   ├── package
+│   │   │   ├── pico-sdk
+│   │   │   ├── system
+│   │   │   ├── tests
+│   │   │   │   └── ci
+│   │   │   ├── tools
+│   │   │   │   ├── json
+│   │   │   │   ├── libbearssl
+│   │   │   │   │   └── bearssl
+│   │   │   │   ├── libpico
+│   │   │   │   └── pyserial
+│   │   │   └── variants
+│   │   │       ├── 0xcb_helios
+│   │   │       ├── adafruit_feather
+│   │   │       ├── adafruit_feather_can
+│   │   │       ├── adafruit_feather_dvi
+│   │   │       ├── adafruit_feather_prop_maker
+│   │   │       ├── adafruit_feather_rfm
+│   │   │       ├── adafruit_feather_scorpio
+│   │   │       ├── adafruit_feather_thinkink
+│   │   │       ├── adafruit_feather_usb_host
+│   │   │       ├── adafruit_itsybitsy
+│   │   │       ├── adafruit_kb2040
+│   │   │       ├── adafruit_macropad2040
+│   │   │       ├── adafruit_qtpy
+│   │   │       ├── adafruit_stemmafriend
+│   │   │       ├── adafruit_trinkeyrp2040qt
+│   │   │       ├── arduino_nano_connect
+│   │   │       ├── bridgetek_idm2040-7a
+│   │   │       ├── challenger_2040_lora
+│   │   │       ├── challenger_2040_lte
+│   │   │       ├── challenger_2040_nfc
+│   │   │       ├── challenger_2040_sdrtc
+│   │   │       ├── challenger_2040_subghz
+│   │   │       ├── challenger_2040_uwb
+│   │   │       ├── challenger_2040_wifi
+│   │   │       ├── challenger_2040_wifi_ble
+│   │   │       ├── challenger_nb_2040_wifi
+│   │   │       ├── cytron_maker_nano_rp2040
+│   │   │       ├── cytron_maker_pi_rp2040
+│   │   │       ├── datanoisetv_picoadk
+│   │   │       ├── dfrobot_beetle_rp2040
+│   │   │       ├── electroniccats_huntercat_nfc
+│   │   │       ├── extelec_rc2040
+│   │   │       ├── flyboard2040_core
+│   │   │       ├── generic
+│   │   │       ├── ilabs_rpico32
+│   │   │       ├── melopero_cookie_rp2040
+│   │   │       ├── melopero_shake_rp2040
+│   │   │       ├── nekosystems_bl2040_mini
+│   │   │       ├── nullbits_bit_c_pro
+│   │   │       ├── pimoroni_pga2040
+│   │   │       ├── rpipico
+│   │   │       ├── rpipicow
+│   │   │       ├── seeed_indicator_rp2040
+│   │   │       ├── seeed_xiao_rp2040
+│   │   │       ├── solderparty_rp2040_stamp
+│   │   │       ├── sparkfun_promicrorp2040
+│   │   │       ├── sparkfun_thingplusrp2040
+│   │   │       ├── upesy_rp2040_devkit
+│   │   │       ├── vccgnd_yd_rp2040
+│   │   │       ├── viyalab_mizu
+│   │   │       ├── waveshare_rp2040_lcd_0_96
+│   │   │       ├── waveshare_rp2040_lcd_1_28
+│   │   │       ├── waveshare_rp2040_one
+│   │   │       ├── waveshare_rp2040_plus_16mb
+│   │   │       ├── waveshare_rp2040_plus_4mb
+│   │   │       ├── waveshare_rp2040_zero
+│   │   │       ├── wiznet_5100s_evb_pico
+│   │   │       ├── wiznet_5500_evb_pico
+│   │   │       └── wiznet_wizfi360_evb_pico
+│   │   ├── blink
+│   │   ├── Blink_JP
+│   │   ├── dht22
+│   │   ├── examples
+│   │   │   └── MicroPython
+│   │   │       ├── III Pico W Wi-Fi Doorbell
+│   │   │       ├── II Pico W Sensor Server
+│   │   │       │   └── lib
+│   │   │       │       ├── adafruit_blinka
+│   │   │       │       │   ├── agnostic
+│   │   │       │       │   ├── board
+│   │   │       │       │   │   └── raspberrypi
+│   │   │       │       │   └── microcontroller
+│   │   │       │       │       ├── generic_micropython
+│   │   │       │       │       ├── rp2040
+│   │   │       │       │       └── rp2040_u2if
+│   │   │       │       ├── adafruit_bus_device
+│   │   │       │       ├── adafruit_platformdetect
+│   │   │       │       │   └── constants
+│   │   │       │       └── microcontroller
+│   │   │       ├── I Pico W LED web server
+│   │   │       ├── IV Pico W Weather Station
+│   │   │       │   └── lib
+│   │   │       │       ├── adafruit_blinka
+│   │   │       │       │   ├── agnostic
+│   │   │       │       │   ├── board
+│   │   │       │       │   │   └── raspberrypi
+│   │   │       │       │   └── microcontroller
+│   │   │       │       │       ├── generic_micropython
+│   │   │       │       │       ├── rp2040
+│   │   │       │       │       └── rp2040_u2if
+│   │   │       │       ├── adafruit_bus_device
+│   │   │       │       ├── adafruit_platformdetect
+│   │   │       │       │   └── constants
+│   │   │       │       └── microcontroller
+│   │   │       └── V Pico W PWM servo controller
+│   │   ├── Fritzing-master
+│   │   ├── Macropad
+│   │   │   └── Macropad_Dragon_Drop
+│   │   │       ├── CircuitPython 7.x
+│   │   │       │   ├── dragondrop
+│   │   │       │   └── lib
+│   │   │       │       ├── adafruit_bitmap_font
+│   │   │       │       ├── adafruit_display_text
+│   │   │       │       ├── adafruit_hid
+│   │   │       │       ├── adafruit_imageload
+│   │   │       │       │   ├── bmp
+│   │   │       │       │   └── pnm
+│   │   │       │       │       └── pgm
+│   │   │       │       ├── adafruit_midi
+│   │   │       │       └── adafruit_progressbar
+│   │   │       └── CircuitPython 8.x
+│   │   │           ├── dragondrop
+│   │   │           └── lib
+│   │   │               ├── adafruit_bitmap_font
+│   │   │               ├── adafruit_display_text
+│   │   │               ├── adafruit_hid
+│   │   │               ├── adafruit_imageload
+│   │   │               │   ├── bmp
+│   │   │               │   └── pnm
+│   │   │               │       └── pgm
+│   │   │               ├── adafruit_midi
+│   │   │               └── adafruit_progressbar
+│   │   ├── pdb-tools
+│   │   │   ├── build
+│   │   │   │   ├── bdist.macosx-12.5-x86_64
+│   │   │   │   └── lib
+│   │   │   │       ├── pdbtools
+│   │   │   │       └── tests
+│   │   │   ├── dist
+│   │   │   ├── docs
+│   │   │   │   ├── assets
+│   │   │   │   │   └── css
+│   │   │   │   └── logo
+│   │   │   ├── pdbtools
+│   │   │   ├── pdb_tools.egg-info
+│   │   │   └── tests
+│   │   │       └── data
+│   │   ├── pdb-topology-viewer
+│   │   │   ├── build
+│   │   │   ├── images
+│   │   │   └── src
+│   │   │       ├── app
+│   │   │       └── web-component
+│   │   ├── PicoW
+│   │   │   ├── lib
+│   │   │   │   ├── adafruit_blinka
+│   │   │   │   │   ├── agnostic
+│   │   │   │   │   ├── board
+│   │   │   │   │   │   └── raspberrypi
+│   │   │   │   │   └── microcontroller
+│   │   │   │   │       ├── generic_micropython
+│   │   │   │   │       ├── rp2040
+│   │   │   │   │       └── rp2040_u2if
+│   │   │   │   ├── adafruit_bus_device
+│   │   │   │   ├── adafruit_platformdetect
+│   │   │   │   │   └── constants
+│   │   │   │   └── microcontroller
+│   │   │   ├── __pycache__
+│   │   │   └── venv
+│   │   │       ├── bin
+│   │   │       ├── include
+│   │   │       └── lib
+│   │   │           └── python3.10
+│   │   │               └── site-packages
+│   │   ├── PicoW_HomeAssistant_Starter
+│   │   │   ├── include
+│   │   │   ├── lib
+│   │   │   ├── src
+│   │   │   └── test
+│   │   ├── pico-w-main
+│   │   │   └── MicroPython
+│   │   │       ├── III Pico W Wi-Fi Doorbell
+│   │   │       ├── II Pico W Sensor Server
+│   │   │       │   └── lib
+│   │   │       │       ├── adafruit_blinka
+│   │   │       │       │   ├── agnostic
+│   │   │       │       │   ├── board
+│   │   │       │       │   │   └── raspberrypi
+│   │   │       │       │   └── microcontroller
+│   │   │       │       │       ├── generic_micropython
+│   │   │       │       │       ├── rp2040
+│   │   │       │       │       └── rp2040_u2if
+│   │   │       │       ├── adafruit_bus_device
+│   │   │       │       ├── adafruit_platformdetect
+│   │   │       │       │   └── constants
+│   │   │       │       └── microcontroller
+│   │   │       ├── I Pico W LED web server
+│   │   │       ├── IV Pico W Weather Station
+│   │   │       │   └── lib
+│   │   │       │       ├── adafruit_blinka
+│   │   │       │       │   ├── agnostic
+│   │   │       │       │   ├── board
+│   │   │       │       │   │   └── raspberrypi
+│   │   │       │       │   └── microcontroller
+│   │   │       │       │       ├── generic_micropython
+│   │   │       │       │       ├── rp2040
+│   │   │       │       │       └── rp2040_u2if
+│   │   │       │       ├── adafruit_bus_device
+│   │   │       │       ├── adafruit_platformdetect
+│   │   │       │       │   └── constants
+│   │   │       │       └── microcontroller
+│   │   │       └── V Pico W PWM servo controller
+│   │   └── Trinket_JCP-personal-website-9d70b646c6
+│   └── Slideshow
+│       ├── Block
+│       │   ├── Adminhtml
+│       │   │   └── Slideshow
+│       │   │       ├── Edit
+│       │   │       │   └── Tab
+│       │   │       ├── Grid
+│       │   │       │   └── Renderer
+│       │   │       │       └── Action
+│       │   │       └── Helper
+│       │   │           └── Form
+│       │   │               └── Gallery
+│       │   └── Widget
+│       ├── Controller
+│       │   └── Adminhtml
+│       │       └── Slideshow
+│       │           └── Gallery
+│       ├── etc
+│       │   └── adminhtml
+│       ├── Helper
+│       ├── i18n
+│       ├── Model
+│       │   ├── Config
+│       │   │   └── Source
+│       │   ├── ResourceModel
+│       │   │   └── Slideshow
+│       │   │       └── Grid
+│       │   └── Slideshow
+│       │       ├── Media
+│       │       └── Source
+│       ├── Setup
+│       ├── Ui
+│       │   └── Component
+│       │       └── Listing
+│       │           └── Column
+│       └── view
+│           ├── adminhtml
+│           │   ├── layout
+│           │   ├── templates
+│           │   │   └── slideshow
+│           │   │       ├── edit
+│           │   │       │   └── form
+│           │   │       │       └── renderer
+│           │   │       └── helper
+│           │   ├── ui_component
+│           │   └── web
+│           │       ├── css
+│           │       ├── images
+│           │       └── js
+│           └── frontend
+│               ├── layout
+│               ├── templates
+│               └── web
+│                   ├── css
+│                   ├── js
+│                   └── owlcarousel
+├── Lab_Protocols
+│   └── Cluster
+│       └── Eddy
+├── Leginon
+│   ├── Appion
+│   │   ├── ace
+│   │   ├── appionlib
+│   │   │   ├── apCtf
+│   │   │   ├── apImage
+│   │   │   ├── apImagic
+│   │   │   ├── apSpider
+│   │   │   ├── apTilt
+│   │   │   ├── data
+│   │   │   └── StackClass
+│   │   ├── bin
+│   │   ├── build
+│   │   │   ├── lib
+│   │   │   │   └── appionlib
+│   │   │   │       ├── apCtf
+│   │   │   │       ├── apImage
+│   │   │   │       ├── apImagic
+│   │   │   │       ├── apSpider
+│   │   │   │       ├── apTilt
+│   │   │   │       ├── data
+│   │   │   │       └── StackClass
+│   │   │   └── scripts-2.7
+│   │   ├── denoise
+│   │   ├── docs
+│   │   │   └── tiltpicker
+│   │   ├── spiderbatch
+│   │   └── test
+│   └── deleteFrames
+│       ├── classTest
+│       ├── functionTest
+│       │   └── backup
+│       └── moduleTest
+├── Micropython
+│   ├── adafruit-circuitpython-hid-9.x-mpy-6.1.8
+│   │   ├── examples
+│   │   │   └── Adafruit_CircuitPython_HID
+│   │   ├── lib
+│   │   │   └── adafruit_hid
+│   │   └── requirements
+│   │       └── adafruit_hid
+│   ├── rpi-pico-ssd1306
+│   │   ├── images
+│   │   ├── micropython
+│   │   │   ├── data_display
+│   │   │   ├── logo_display
+│   │   │   └── rpi_demo
+│   │   └── python3
+│   └── SumpWatch
+├── mike
+│   ├── goCTF
+│   └── house_keeping
+├── Misc
+│   └── goCTF
+├── motioncor
+├── MotionCorr
+├── mrcfile
+├── MRC_File
+├── mrcfile-python
+│   ├── docs
+│   │   └── source
+│   ├── mrcfile
+│   │   └── __pycache__
+│   └── tests
+│       └── test_data
+├── MRCfile_Python
+│   ├── docs
+│   │   └── source
+│   ├── mrcfile
+│   │   └── __pycache__
+│   └── tests
+│       └── test_data
+├── MySQL
+├── personal_webpage_trinket
+├── PPT
+├── programs
+│   ├── Appion
+│   │   ├── ace
+│   │   ├── appionlib
+│   │   │   ├── apCtf
+│   │   │   ├── apImage
+│   │   │   ├── apImagic
+│   │   │   ├── apSpider
+│   │   │   ├── apTilt
+│   │   │   ├── data
+│   │   │   └── StackClass
+│   │   ├── bin
+│   │   ├── build
+│   │   │   ├── lib
+│   │   │   │   └── appionlib
+│   │   │   │       ├── apCtf
+│   │   │   │       ├── apImage
+│   │   │   │       ├── apImagic
+│   │   │   │       ├── apSpider
+│   │   │   │       ├── apTilt
+│   │   │   │       ├── data
+│   │   │   │       └── StackClass
+│   │   │   └── scripts-2.7
+│   │   ├── denoise
+│   │   ├── docs
+│   │   │   └── tiltpicker
+│   │   ├── spiderbatch
+│   │   └── test
+│   ├── Bash
+│   ├── CCP4
+│   │   ├── ccp4_fortran
+│   │   ├── ccp4_templates
+│   │   └── mrcfile
+│   ├── deleteFrames
+│   │   ├── classTest
+│   │   ├── functionTest
+│   │   │   └── backup
+│   │   └── moduleTest
+│   ├── Documents
+│   │   ├── Cluster
+│   │   │   └── Eddy
+│   │   └── lab_protocols
+│   ├── HTML
+│   ├── mike
+│   │   ├── goCTF
+│   │   └── house_keeping
+│   ├── motioncor
+│   ├── mrcfile-python
+│   │   ├── docs
+│   │   │   └── source
+│   │   ├── mrcfile
+│   │   │   └── __pycache__
+│   │   └── tests
+│   │       └── test_data
+│   ├── MySQL
+│   ├── Old
+│   │   ├── hpc_umich
+│   │   │   └── gctf_scripts
+│   │   └── python2.7
+│   │       ├── classes
+│   │       └── modules
+│   └── scripts
+│       └── Relion
+├── Python
+│   ├── MRC_File_Python
+│   │   ├── docs
+│   │   │   └── source
+│   │   ├── mrcfile
+│   │   │   └── __pycache__
+│   │   └── tests
+│   │       └── test_data
+│   ├── Python2.7
+│   │   ├── classes
+│   │   └── modules
+│   └── todo_project
+│       ├── jptodo
+│       │   └── __pycache__
+│       ├── tests
+│       └── venv
+│           ├── bin
+│           ├── include
+│           └── lib
+│               └── python3.9
+│                   └── site-packages
+│                       ├── attr
+│                       │   └── __pycache__
+│                       ├── attrs
+│                       │   └── __pycache__
+│                       ├── attrs-25.3.0.dist-info
+│                       │   └── licenses
+│                       ├── click
+│                       │   └── __pycache__
+│                       ├── click-7.1.2.dist-info
+│                       ├── colorama
+│                       │   └── __pycache__
+│                       ├── colorama-0.4.4.dist-info
+│                       ├── _distutils_hack
+│                       │   └── __pycache__
+│                       ├── iniconfig
+│                       │   └── __pycache__
+│                       ├── iniconfig-2.1.0.dist-info
+│                       │   └── licenses
+│                       ├── optional-0.0.1.dist-info
+│                       ├── packaging
+│                       │   ├── licenses
+│                       │   │   └── __pycache__
+│                       │   └── __pycache__
+│                       ├── packaging-24.2.dist-info
+│                       ├── pip
+│                       │   ├── _internal
+│                       │   │   ├── cli
+│                       │   │   │   └── __pycache__
+│                       │   │   ├── commands
+│                       │   │   │   └── __pycache__
+│                       │   │   ├── distributions
+│                       │   │   │   └── __pycache__
+│                       │   │   ├── index
+│                       │   │   │   └── __pycache__
+│                       │   │   ├── locations
+│                       │   │   │   └── __pycache__
+│                       │   │   ├── metadata
+│                       │   │   │   ├── importlib
+│                       │   │   │   │   └── __pycache__
+│                       │   │   │   └── __pycache__
+│                       │   │   ├── models
+│                       │   │   │   └── __pycache__
+│                       │   │   ├── network
+│                       │   │   │   └── __pycache__
+│                       │   │   ├── operations
+│                       │   │   │   ├── build
+│                       │   │   │   │   └── __pycache__
+│                       │   │   │   ├── install
+│                       │   │   │   │   └── __pycache__
+│                       │   │   │   └── __pycache__
+│                       │   │   ├── __pycache__
+│                       │   │   ├── req
+│                       │   │   │   └── __pycache__
+│                       │   │   ├── resolution
+│                       │   │   │   ├── legacy
+│                       │   │   │   │   └── __pycache__
+│                       │   │   │   ├── __pycache__
+│                       │   │   │   └── resolvelib
+│                       │   │   │       └── __pycache__
+│                       │   │   ├── utils
+│                       │   │   │   └── __pycache__
+│                       │   │   └── vcs
+│                       │   │       └── __pycache__
+│                       │   ├── __pycache__
+│                       │   └── _vendor
+│                       │       ├── cachecontrol
+│                       │       │   ├── caches
+│                       │       │   │   └── __pycache__
+│                       │       │   └── __pycache__
+│                       │       ├── certifi
+│                       │       │   └── __pycache__
+│                       │       ├── distlib
+│                       │       │   └── __pycache__
+│                       │       ├── distro
+│                       │       │   └── __pycache__
+│                       │       ├── idna
+│                       │       │   └── __pycache__
+│                       │       ├── msgpack
+│                       │       │   └── __pycache__
+│                       │       ├── packaging
+│                       │       │   ├── licenses
+│                       │       │   │   └── __pycache__
+│                       │       │   └── __pycache__
+│                       │       ├── pkg_resources
+│                       │       │   └── __pycache__
+│                       │       ├── platformdirs
+│                       │       │   └── __pycache__
+│                       │       ├── __pycache__
+│                       │       ├── pygments
+│                       │       │   ├── filters
+│                       │       │   │   └── __pycache__
+│                       │       │   ├── formatters
+│                       │       │   │   └── __pycache__
+│                       │       │   ├── lexers
+│                       │       │   │   └── __pycache__
+│                       │       │   ├── __pycache__
+│                       │       │   └── styles
+│                       │       │       └── __pycache__
+│                       │       ├── pyproject_hooks
+│                       │       │   ├── _in_process
+│                       │       │   │   └── __pycache__
+│                       │       │   └── __pycache__
+│                       │       ├── requests
+│                       │       │   └── __pycache__
+│                       │       ├── resolvelib
+│                       │       │   ├── compat
+│                       │       │   │   └── __pycache__
+│                       │       │   └── __pycache__
+│                       │       ├── rich
+│                       │       │   └── __pycache__
+│                       │       ├── tomli
+│                       │       │   └── __pycache__
+│                       │       ├── truststore
+│                       │       │   └── __pycache__
+│                       │       └── urllib3
+│                       │           ├── contrib
+│                       │           │   ├── __pycache__
+│                       │           │   └── _securetransport
+│                       │           │       └── __pycache__
+│                       │           ├── packages
+│                       │           │   ├── backports
+│                       │           │   │   └── __pycache__
+│                       │           │   └── __pycache__
+│                       │           ├── __pycache__
+│                       │           └── util
+│                       │               └── __pycache__
+│                       ├── pip-25.0.1.dist-info
+│                       ├── pkg_resources
+│                       │   ├── extern
+│                       │   │   └── __pycache__
+│                       │   ├── __pycache__
+│                       │   ├── tests
+│                       │   │   └── data
+│                       │   │       └── my-test-package-source
+│                       │   │           └── __pycache__
+│                       │   └── _vendor
+│                       │       ├── packaging
+│                       │       │   └── __pycache__
+│                       │       └── __pycache__
+│                       ├── pluggy
+│                       │   └── __pycache__
+│                       ├── pluggy-0.13.1.dist-info
+│                       ├── py
+│                       │   ├── _code
+│                       │   │   └── __pycache__
+│                       │   ├── _io
+│                       │   │   └── __pycache__
+│                       │   ├── _log
+│                       │   │   └── __pycache__
+│                       │   ├── _path
+│                       │   │   └── __pycache__
+│                       │   ├── _process
+│                       │   │   └── __pycache__
+│                       │   ├── __pycache__
+│                       │   └── _vendored_packages
+│                       │       ├── apipkg
+│                       │       │   └── __pycache__
+│                       │       ├── apipkg-2.0.0.dist-info
+│                       │       ├── iniconfig
+│                       │       │   └── __pycache__
+│                       │       ├── iniconfig-1.1.1.dist-info
+│                       │       └── __pycache__
+│                       ├── py-1.11.0.dist-info
+│                       ├── __pycache__
+│                       ├── _pytest
+│                       │   ├── assertion
+│                       │   │   └── __pycache__
+│                       │   ├── _code
+│                       │   │   └── __pycache__
+│                       │   ├── config
+│                       │   │   └── __pycache__
+│                       │   ├── _io
+│                       │   │   └── __pycache__
+│                       │   ├── mark
+│                       │   │   └── __pycache__
+│                       │   └── __pycache__
+│                       ├── pytest
+│                       │   └── __pycache__
+│                       ├── pytest-6.2.4.dist-info
+│                       ├── setuptools
+│                       │   ├── command
+│                       │   │   └── __pycache__
+│                       │   ├── _distutils
+│                       │   │   ├── command
+│                       │   │   │   └── __pycache__
+│                       │   │   └── __pycache__
+│                       │   ├── extern
+│                       │   │   └── __pycache__
+│                       │   ├── __pycache__
+│                       │   └── _vendor
+│                       │       ├── more_itertools
+│                       │       │   └── __pycache__
+│                       │       ├── packaging
+│                       │       │   └── __pycache__
+│                       │       └── __pycache__
+│                       ├── setuptools-58.1.0.dist-info
+│                       ├── shellingham
+│                       │   ├── posix
+│                       │   │   └── __pycache__
+│                       │   └── __pycache__
+│                       ├── shellingham-1.4.0.dist-info
+│                       ├── toml
+│                       │   └── __pycache__
+│                       ├── toml-0.10.2.dist-info
+│                       ├── typer
+│                       │   └── __pycache__
+│                       └── typer-0.3.2.dist-info
+├── Python2.7
+│   ├── classes
+│   └── modules
+├── Python3
+│   └── dose
+│       └── venv
+│           ├── bin
+│           ├── include
+│           │   └── python3.13
+│           ├── lib
+│           │   └── python3.13
+│           │       └── site-packages
+│           │           ├── contourpy
+│           │           │   ├── __pycache__
+│           │           │   └── util
+│           │           │       └── __pycache__
+│           │           ├── contourpy-1.3.3.dist-info
+│           │           ├── cycler
+│           │           │   └── __pycache__
+│           │           ├── cycler-0.12.1.dist-info
+│           │           ├── dateutil
+│           │           │   ├── parser
+│           │           │   │   └── __pycache__
+│           │           │   ├── __pycache__
+│           │           │   ├── tz
+│           │           │   │   └── __pycache__
+│           │           │   └── zoneinfo
+│           │           │       └── __pycache__
+│           │           ├── fontTools
+│           │           │   ├── cffLib
+│           │           │   │   └── __pycache__
+│           │           │   ├── colorLib
+│           │           │   │   └── __pycache__
+│           │           │   ├── config
+│           │           │   │   └── __pycache__
+│           │           │   ├── cu2qu
+│           │           │   │   └── __pycache__
+│           │           │   ├── designspaceLib
+│           │           │   │   └── __pycache__
+│           │           │   ├── encodings
+│           │           │   │   └── __pycache__
+│           │           │   ├── feaLib
+│           │           │   │   └── __pycache__
+│           │           │   ├── merge
+│           │           │   │   └── __pycache__
+│           │           │   ├── misc
+│           │           │   │   ├── filesystem
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── plistlib
+│           │           │   │   │   └── __pycache__
+│           │           │   │   └── __pycache__
+│           │           │   ├── mtiLib
+│           │           │   │   └── __pycache__
+│           │           │   ├── otlLib
+│           │           │   │   ├── optimize
+│           │           │   │   │   └── __pycache__
+│           │           │   │   └── __pycache__
+│           │           │   ├── pens
+│           │           │   │   └── __pycache__
+│           │           │   ├── __pycache__
+│           │           │   ├── qu2cu
+│           │           │   │   └── __pycache__
+│           │           │   ├── subset
+│           │           │   │   └── __pycache__
+│           │           │   ├── svgLib
+│           │           │   │   ├── path
+│           │           │   │   │   └── __pycache__
+│           │           │   │   └── __pycache__
+│           │           │   ├── t1Lib
+│           │           │   │   └── __pycache__
+│           │           │   ├── ttLib
+│           │           │   │   ├── __pycache__
+│           │           │   │   └── tables
+│           │           │   │       └── __pycache__
+│           │           │   ├── ufoLib
+│           │           │   │   └── __pycache__
+│           │           │   ├── unicodedata
+│           │           │   │   └── __pycache__
+│           │           │   ├── varLib
+│           │           │   │   ├── avar
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── instancer
+│           │           │   │   │   └── __pycache__
+│           │           │   │   └── __pycache__
+│           │           │   └── voltLib
+│           │           │       └── __pycache__
+│           │           ├── fonttools-4.60.1.dist-info
+│           │           │   └── licenses
+│           │           ├── kiwisolver
+│           │           │   └── __pycache__
+│           │           ├── kiwisolver-1.4.9.dist-info
+│           │           │   └── licenses
+│           │           ├── matplotlib
+│           │           │   ├── _api
+│           │           │   │   └── __pycache__
+│           │           │   ├── axes
+│           │           │   │   └── __pycache__
+│           │           │   ├── backends
+│           │           │   │   ├── __pycache__
+│           │           │   │   ├── qt_editor
+│           │           │   │   │   └── __pycache__
+│           │           │   │   └── web_backend
+│           │           │   │       ├── css
+│           │           │   │       └── js
+│           │           │   ├── mpl-data
+│           │           │   │   ├── fonts
+│           │           │   │   │   ├── afm
+│           │           │   │   │   ├── pdfcorefonts
+│           │           │   │   │   └── ttf
+│           │           │   │   ├── images
+│           │           │   │   ├── plot_directive
+│           │           │   │   ├── sample_data
+│           │           │   │   │   └── axes_grid
+│           │           │   │   └── stylelib
+│           │           │   ├── projections
+│           │           │   │   └── __pycache__
+│           │           │   ├── __pycache__
+│           │           │   ├── sphinxext
+│           │           │   │   └── __pycache__
+│           │           │   ├── style
+│           │           │   │   └── __pycache__
+│           │           │   ├── testing
+│           │           │   │   ├── jpl_units
+│           │           │   │   │   └── __pycache__
+│           │           │   │   └── __pycache__
+│           │           │   ├── tests
+│           │           │   │   └── __pycache__
+│           │           │   └── tri
+│           │           │       └── __pycache__
+│           │           ├── matplotlib-3.10.7.dist-info
+│           │           ├── mpl_toolkits
+│           │           │   ├── axes_grid1
+│           │           │   │   ├── __pycache__
+│           │           │   │   └── tests
+│           │           │   │       └── __pycache__
+│           │           │   ├── axisartist
+│           │           │   │   ├── __pycache__
+│           │           │   │   └── tests
+│           │           │   │       └── __pycache__
+│           │           │   └── mplot3d
+│           │           │       ├── __pycache__
+│           │           │       └── tests
+│           │           │           └── __pycache__
+│           │           ├── numpy
+│           │           │   ├── char
+│           │           │   │   └── __pycache__
+│           │           │   ├── _core
+│           │           │   │   ├── include
+│           │           │   │   │   └── numpy
+│           │           │   │   │       └── random
+│           │           │   │   ├── lib
+│           │           │   │   │   ├── npy-pkg-config
+│           │           │   │   │   └── pkgconfig
+│           │           │   │   ├── __pycache__
+│           │           │   │   └── tests
+│           │           │   │       ├── data
+│           │           │   │       ├── examples
+│           │           │   │       │   ├── cython
+│           │           │   │       │   │   └── __pycache__
+│           │           │   │       │   └── limited_api
+│           │           │   │       │       └── __pycache__
+│           │           │   │       └── __pycache__
+│           │           │   ├── core
+│           │           │   │   └── __pycache__
+│           │           │   ├── ctypeslib
+│           │           │   │   └── __pycache__
+│           │           │   ├── doc
+│           │           │   │   └── __pycache__
+│           │           │   ├── f2py
+│           │           │   │   ├── _backends
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── __pycache__
+│           │           │   │   ├── src
+│           │           │   │   └── tests
+│           │           │   │       ├── __pycache__
+│           │           │   │       └── src
+│           │           │   │           ├── abstract_interface
+│           │           │   │           ├── array_from_pyobj
+│           │           │   │           ├── assumed_shape
+│           │           │   │           ├── block_docstring
+│           │           │   │           ├── callback
+│           │           │   │           ├── cli
+│           │           │   │           ├── common
+│           │           │   │           ├── crackfortran
+│           │           │   │           ├── f2cmap
+│           │           │   │           ├── isocintrin
+│           │           │   │           ├── kind
+│           │           │   │           ├── mixed
+│           │           │   │           ├── modules
+│           │           │   │           │   ├── gh25337
+│           │           │   │           │   └── gh26920
+│           │           │   │           ├── negative_bounds
+│           │           │   │           ├── parameter
+│           │           │   │           ├── quoted_character
+│           │           │   │           ├── regression
+│           │           │   │           ├── return_character
+│           │           │   │           ├── return_complex
+│           │           │   │           ├── return_integer
+│           │           │   │           ├── return_logical
+│           │           │   │           ├── return_real
+│           │           │   │           ├── routines
+│           │           │   │           ├── size
+│           │           │   │           ├── string
+│           │           │   │           └── value_attrspec
+│           │           │   ├── fft
+│           │           │   │   ├── __pycache__
+│           │           │   │   └── tests
+│           │           │   │       └── __pycache__
+│           │           │   ├── lib
+│           │           │   │   ├── __pycache__
+│           │           │   │   └── tests
+│           │           │   │       ├── data
+│           │           │   │       └── __pycache__
+│           │           │   ├── linalg
+│           │           │   │   ├── __pycache__
+│           │           │   │   └── tests
+│           │           │   │       └── __pycache__
+│           │           │   ├── ma
+│           │           │   │   ├── __pycache__
+│           │           │   │   └── tests
+│           │           │   │       └── __pycache__
+│           │           │   ├── matrixlib
+│           │           │   │   ├── __pycache__
+│           │           │   │   └── tests
+│           │           │   │       └── __pycache__
+│           │           │   ├── polynomial
+│           │           │   │   ├── __pycache__
+│           │           │   │   └── tests
+│           │           │   │       └── __pycache__
+│           │           │   ├── __pycache__
+│           │           │   ├── _pyinstaller
+│           │           │   │   ├── __pycache__
+│           │           │   │   └── tests
+│           │           │   │       └── __pycache__
+│           │           │   ├── random
+│           │           │   │   ├── _examples
+│           │           │   │   │   ├── cffi
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── cython
+│           │           │   │   │   └── numba
+│           │           │   │   │       └── __pycache__
+│           │           │   │   ├── lib
+│           │           │   │   ├── __pycache__
+│           │           │   │   └── tests
+│           │           │   │       ├── data
+│           │           │   │       │   └── __pycache__
+│           │           │   │       └── __pycache__
+│           │           │   ├── rec
+│           │           │   │   └── __pycache__
+│           │           │   ├── strings
+│           │           │   │   └── __pycache__
+│           │           │   ├── testing
+│           │           │   │   ├── _private
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── __pycache__
+│           │           │   │   └── tests
+│           │           │   │       └── __pycache__
+│           │           │   ├── tests
+│           │           │   │   └── __pycache__
+│           │           │   ├── _typing
+│           │           │   │   └── __pycache__
+│           │           │   ├── typing
+│           │           │   │   ├── __pycache__
+│           │           │   │   └── tests
+│           │           │   │       ├── data
+│           │           │   │       │   ├── fail
+│           │           │   │       │   ├── misc
+│           │           │   │       │   ├── pass
+│           │           │   │       │   │   └── __pycache__
+│           │           │   │       │   └── reveal
+│           │           │   │       └── __pycache__
+│           │           │   └── _utils
+│           │           │       └── __pycache__
+│           │           ├── numpy-2.3.4.dist-info
+│           │           ├── packaging
+│           │           │   ├── licenses
+│           │           │   │   └── __pycache__
+│           │           │   └── __pycache__
+│           │           ├── packaging-25.0.dist-info
+│           │           │   └── licenses
+│           │           ├── pandas
+│           │           │   ├── api
+│           │           │   │   ├── extensions
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── indexers
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── interchange
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── __pycache__
+│           │           │   │   ├── types
+│           │           │   │   │   └── __pycache__
+│           │           │   │   └── typing
+│           │           │   │       └── __pycache__
+│           │           │   ├── arrays
+│           │           │   │   └── __pycache__
+│           │           │   ├── compat
+│           │           │   │   ├── numpy
+│           │           │   │   │   └── __pycache__
+│           │           │   │   └── __pycache__
+│           │           │   ├── _config
+│           │           │   │   └── __pycache__
+│           │           │   ├── core
+│           │           │   │   ├── array_algos
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── arrays
+│           │           │   │   │   ├── arrow
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── __pycache__
+│           │           │   │   │   └── sparse
+│           │           │   │   │       └── __pycache__
+│           │           │   │   ├── computation
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── dtypes
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── groupby
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── indexers
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── indexes
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── interchange
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── internals
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── methods
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── _numba
+│           │           │   │   │   ├── kernels
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── ops
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── __pycache__
+│           │           │   │   ├── reshape
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── sparse
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── strings
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── tools
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── util
+│           │           │   │   │   └── __pycache__
+│           │           │   │   └── window
+│           │           │   │       └── __pycache__
+│           │           │   ├── errors
+│           │           │   │   └── __pycache__
+│           │           │   ├── io
+│           │           │   │   ├── clipboard
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── excel
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── formats
+│           │           │   │   │   ├── __pycache__
+│           │           │   │   │   └── templates
+│           │           │   │   ├── json
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── parsers
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── __pycache__
+│           │           │   │   └── sas
+│           │           │   │       └── __pycache__
+│           │           │   ├── _libs
+│           │           │   │   ├── __pycache__
+│           │           │   │   ├── tslibs
+│           │           │   │   │   └── __pycache__
+│           │           │   │   └── window
+│           │           │   │       └── __pycache__
+│           │           │   ├── plotting
+│           │           │   │   ├── _matplotlib
+│           │           │   │   │   └── __pycache__
+│           │           │   │   └── __pycache__
+│           │           │   ├── __pycache__
+│           │           │   ├── _testing
+│           │           │   │   └── __pycache__
+│           │           │   ├── tests
+│           │           │   │   ├── api
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── apply
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── arithmetic
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── arrays
+│           │           │   │   │   ├── boolean
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── categorical
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── datetimes
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── floating
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── integer
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── interval
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── masked
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── numpy_
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── period
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── __pycache__
+│           │           │   │   │   ├── sparse
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── string_
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   └── timedeltas
+│           │           │   │   │       └── __pycache__
+│           │           │   │   ├── base
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── computation
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── config
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── construction
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── copy_view
+│           │           │   │   │   ├── index
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── dtypes
+│           │           │   │   │   ├── cast
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── extension
+│           │           │   │   │   ├── array_with_attr
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── base
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── date
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── decimal
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── json
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── list
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── frame
+│           │           │   │   │   ├── constructors
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── indexing
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── methods
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── generic
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── groupby
+│           │           │   │   │   ├── aggregate
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── methods
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── __pycache__
+│           │           │   │   │   └── transform
+│           │           │   │   │       └── __pycache__
+│           │           │   │   ├── indexes
+│           │           │   │   │   ├── base_class
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── categorical
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── datetimelike_
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── datetimes
+│           │           │   │   │   │   ├── methods
+│           │           │   │   │   │   │   └── __pycache__
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── interval
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── multi
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── numeric
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── object
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── period
+│           │           │   │   │   │   ├── methods
+│           │           │   │   │   │   │   └── __pycache__
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── __pycache__
+│           │           │   │   │   ├── ranges
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── string
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   └── timedeltas
+│           │           │   │   │       ├── methods
+│           │           │   │   │       │   └── __pycache__
+│           │           │   │   │       └── __pycache__
+│           │           │   │   ├── indexing
+│           │           │   │   │   ├── interval
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── multiindex
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── interchange
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── internals
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── io
+│           │           │   │   │   ├── excel
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── formats
+│           │           │   │   │   │   ├── __pycache__
+│           │           │   │   │   │   └── style
+│           │           │   │   │   │       └── __pycache__
+│           │           │   │   │   ├── json
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── parser
+│           │           │   │   │   │   ├── common
+│           │           │   │   │   │   │   └── __pycache__
+│           │           │   │   │   │   ├── dtypes
+│           │           │   │   │   │   │   └── __pycache__
+│           │           │   │   │   │   ├── __pycache__
+│           │           │   │   │   │   └── usecols
+│           │           │   │   │   │       └── __pycache__
+│           │           │   │   │   ├── __pycache__
+│           │           │   │   │   ├── pytables
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── sas
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   └── xml
+│           │           │   │   │       └── __pycache__
+│           │           │   │   ├── libs
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── plotting
+│           │           │   │   │   ├── frame
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── __pycache__
+│           │           │   │   ├── reductions
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── resample
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── reshape
+│           │           │   │   │   ├── concat
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── merge
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── scalar
+│           │           │   │   │   ├── interval
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── period
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── __pycache__
+│           │           │   │   │   ├── timedelta
+│           │           │   │   │   │   ├── methods
+│           │           │   │   │   │   │   └── __pycache__
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   └── timestamp
+│           │           │   │   │       ├── methods
+│           │           │   │   │       │   └── __pycache__
+│           │           │   │   │       └── __pycache__
+│           │           │   │   ├── series
+│           │           │   │   │   ├── accessors
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── indexing
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── methods
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── strings
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── tools
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── tseries
+│           │           │   │   │   ├── frequencies
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── holiday
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── offsets
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── tslibs
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── util
+│           │           │   │   │   └── __pycache__
+│           │           │   │   └── window
+│           │           │   │       ├── moments
+│           │           │   │       │   └── __pycache__
+│           │           │   │       └── __pycache__
+│           │           │   ├── tseries
+│           │           │   │   └── __pycache__
+│           │           │   └── util
+│           │           │       ├── __pycache__
+│           │           │       └── version
+│           │           │           └── __pycache__
+│           │           ├── pandas-2.3.3.dist-info
+│           │           ├── PIL
+│           │           │   └── __pycache__
+│           │           ├── pillow-12.0.0.dist-info
+│           │           │   └── licenses
+│           │           ├── pip
+│           │           │   ├── _internal
+│           │           │   │   ├── cli
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── commands
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── distributions
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── index
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── locations
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── metadata
+│           │           │   │   │   ├── importlib
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── models
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── network
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── operations
+│           │           │   │   │   ├── build
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── install
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── __pycache__
+│           │           │   │   ├── req
+│           │           │   │   │   └── __pycache__
+│           │           │   │   ├── resolution
+│           │           │   │   │   ├── legacy
+│           │           │   │   │   │   └── __pycache__
+│           │           │   │   │   ├── __pycache__
+│           │           │   │   │   └── resolvelib
+│           │           │   │   │       └── __pycache__
+│           │           │   │   ├── utils
+│           │           │   │   │   └── __pycache__
+│           │           │   │   └── vcs
+│           │           │   │       └── __pycache__
+│           │           │   ├── __pycache__
+│           │           │   └── _vendor
+│           │           │       ├── cachecontrol
+│           │           │       │   ├── caches
+│           │           │       │   │   └── __pycache__
+│           │           │       │   └── __pycache__
+│           │           │       ├── certifi
+│           │           │       │   └── __pycache__
+│           │           │       ├── dependency_groups
+│           │           │       │   └── __pycache__
+│           │           │       ├── distlib
+│           │           │       │   └── __pycache__
+│           │           │       ├── distro
+│           │           │       │   └── __pycache__
+│           │           │       ├── idna
+│           │           │       │   └── __pycache__
+│           │           │       ├── msgpack
+│           │           │       │   └── __pycache__
+│           │           │       ├── packaging
+│           │           │       │   ├── licenses
+│           │           │       │   │   └── __pycache__
+│           │           │       │   └── __pycache__
+│           │           │       ├── pkg_resources
+│           │           │       │   └── __pycache__
+│           │           │       ├── platformdirs
+│           │           │       │   └── __pycache__
+│           │           │       ├── __pycache__
+│           │           │       ├── pygments
+│           │           │       │   ├── filters
+│           │           │       │   │   └── __pycache__
+│           │           │       │   ├── formatters
+│           │           │       │   │   └── __pycache__
+│           │           │       │   ├── lexers
+│           │           │       │   │   └── __pycache__
+│           │           │       │   ├── __pycache__
+│           │           │       │   └── styles
+│           │           │       │       └── __pycache__
+│           │           │       ├── pyproject_hooks
+│           │           │       │   ├── _in_process
+│           │           │       │   │   └── __pycache__
+│           │           │       │   └── __pycache__
+│           │           │       ├── requests
+│           │           │       │   └── __pycache__
+│           │           │       ├── resolvelib
+│           │           │       │   ├── __pycache__
+│           │           │       │   └── resolvers
+│           │           │       │       └── __pycache__
+│           │           │       ├── rich
+│           │           │       │   └── __pycache__
+│           │           │       ├── tomli
+│           │           │       │   └── __pycache__
+│           │           │       ├── tomli_w
+│           │           │       │   └── __pycache__
+│           │           │       ├── truststore
+│           │           │       │   └── __pycache__
+│           │           │       └── urllib3
+│           │           │           ├── contrib
+│           │           │           │   ├── __pycache__
+│           │           │           │   └── _securetransport
+│           │           │           │       └── __pycache__
+│           │           │           ├── packages
+│           │           │           │   ├── backports
+│           │           │           │   │   └── __pycache__
+│           │           │           │   └── __pycache__
+│           │           │           ├── __pycache__
+│           │           │           └── util
+│           │           │               └── __pycache__
+│           │           ├── pip-25.2.dist-info
+│           │           │   └── licenses
+│           │           │       └── src
+│           │           │           └── pip
+│           │           │               └── _vendor
+│           │           │                   ├── cachecontrol
+│           │           │                   ├── certifi
+│           │           │                   ├── dependency_groups
+│           │           │                   ├── distlib
+│           │           │                   ├── distro
+│           │           │                   ├── idna
+│           │           │                   ├── msgpack
+│           │           │                   ├── packaging
+│           │           │                   ├── pkg_resources
+│           │           │                   ├── platformdirs
+│           │           │                   ├── pygments
+│           │           │                   ├── pyproject_hooks
+│           │           │                   ├── requests
+│           │           │                   ├── resolvelib
+│           │           │                   ├── rich
+│           │           │                   ├── tomli
+│           │           │                   ├── tomli_w
+│           │           │                   ├── truststore
+│           │           │                   └── urllib3
+│           │           ├── __pycache__
+│           │           ├── pyparsing
+│           │           │   ├── diagram
+│           │           │   │   └── __pycache__
+│           │           │   ├── __pycache__
+│           │           │   └── tools
+│           │           │       └── __pycache__
+│           │           ├── pyparsing-3.2.5.dist-info
+│           │           │   └── licenses
+│           │           ├── python_dateutil-2.9.0.post0.dist-info
+│           │           ├── pytz
+│           │           │   ├── __pycache__
+│           │           │   └── zoneinfo
+│           │           │       ├── Africa
+│           │           │       ├── America
+│           │           │       │   ├── Argentina
+│           │           │       │   ├── Indiana
+│           │           │       │   ├── Kentucky
+│           │           │       │   └── North_Dakota
+│           │           │       ├── Antarctica
+│           │           │       ├── Arctic
+│           │           │       ├── Asia
+│           │           │       ├── Atlantic
+│           │           │       ├── Australia
+│           │           │       ├── Brazil
+│           │           │       ├── Canada
+│           │           │       ├── Chile
+│           │           │       ├── Etc
+│           │           │       ├── Europe
+│           │           │       ├── Indian
+│           │           │       ├── Mexico
+│           │           │       ├── Pacific
+│           │           │       └── US
+│           │           ├── pytz-2025.2.dist-info
+│           │           ├── six-1.17.0.dist-info
+│           │           ├── tzdata
+│           │           │   ├── __pycache__
+│           │           │   └── zoneinfo
+│           │           │       ├── Africa
+│           │           │       │   └── __pycache__
+│           │           │       ├── America
+│           │           │       │   ├── Argentina
+│           │           │       │   │   └── __pycache__
+│           │           │       │   ├── Indiana
+│           │           │       │   │   └── __pycache__
+│           │           │       │   ├── Kentucky
+│           │           │       │   │   └── __pycache__
+│           │           │       │   ├── North_Dakota
+│           │           │       │   │   └── __pycache__
+│           │           │       │   └── __pycache__
+│           │           │       ├── Antarctica
+│           │           │       │   └── __pycache__
+│           │           │       ├── Arctic
+│           │           │       │   └── __pycache__
+│           │           │       ├── Asia
+│           │           │       │   └── __pycache__
+│           │           │       ├── Atlantic
+│           │           │       │   └── __pycache__
+│           │           │       ├── Australia
+│           │           │       │   └── __pycache__
+│           │           │       ├── Brazil
+│           │           │       │   └── __pycache__
+│           │           │       ├── Canada
+│           │           │       │   └── __pycache__
+│           │           │       ├── Chile
+│           │           │       │   └── __pycache__
+│           │           │       ├── Etc
+│           │           │       │   └── __pycache__
+│           │           │       ├── Europe
+│           │           │       │   └── __pycache__
+│           │           │       ├── Indian
+│           │           │       │   └── __pycache__
+│           │           │       ├── Mexico
+│           │           │       │   └── __pycache__
+│           │           │       ├── Pacific
+│           │           │       │   └── __pycache__
+│           │           │       ├── __pycache__
+│           │           │       └── US
+│           │           │           └── __pycache__
+│           │           ├── tzdata-2025.2.dist-info
+│           │           │   └── licenses
+│           │           │       └── licenses
+│           │           ├── wheel
+│           │           │   ├── cli
+│           │           │   │   └── __pycache__
+│           │           │   ├── __pycache__
+│           │           │   └── vendored
+│           │           │       ├── packaging
+│           │           │       │   └── __pycache__
+│           │           │       └── __pycache__
+│           │           └── wheel-0.45.1.dist-info
+│           └── share
+│               └── man
+│                   └── man1
+├── README_FILES
+├── Scripts
+│   └── Relion
+├── Trinket_Page
+└── webrepl
+
+3510 directories
