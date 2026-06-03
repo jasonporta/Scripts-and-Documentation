@@ -4,7 +4,7 @@ from pathlib import Path
 
 # Script that will fetch an mmCIF file from the RCSB PDB. Input accepts
 # 4-character PDB IDs and the new extended format IDs. Can input IDs
-# using either upper or lower case characters
+# using either upper or lower case letters
 
 def download_mmcif(pdb_id, output_dir="."):
     output_dir = Path(output_dir)
