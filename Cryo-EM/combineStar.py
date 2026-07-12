@@ -10,10 +10,10 @@ import subprocess
 files = glob.glob('*.star')
 
 # Combine individual star files generated from
-# goCTF into one file called all_goCTF.star.
+# into one file called all_CTF.star.
 
 # Write the first star file to the output with header:
-with open('all_goCTF.star','w+') as outfile:
+with open('all_CTF.star','w+') as outfile:
   with open(files[0]) as f1:
     for line in f1:
       outfile.write(line)
